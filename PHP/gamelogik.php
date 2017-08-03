@@ -24,9 +24,9 @@ $LetzterZug = $userid;
 
 $Spieler_ID = $Spieler1_ID;
 
-$Spiel_ID = $_SESSION['SpielId'];
+//$Spiel_ID = $_SESSION['SpielId'];
 
-//$Spiel_ID = 2; //zum testen für die partiebeitreten funktion
+$Spiel_ID = 3; //zum testen für die partiebeitreten funktion
 
 $feld = "Feld5";
 
@@ -35,7 +35,7 @@ echo "<br>";
 echo "spieloffen: " . $Spiel_ID;
 
 //spieleroeffnen($Spieler1_ID, $Spieler2_ID, $AmZug);
-//partiebeitreten($Spiel_ID, $userid);
+partiebeitreten($Spiel_ID, $userid);
 //setfeld($Spiel_ID, $feld, $Spieler_ID);
 //gebepartienaus();
 //spielfeldausgabe($Spiel_ID);
@@ -84,7 +84,7 @@ function setfeld($Spiel_ID, $feld, $Spieler_ID)
     $AmZug = $Partie['AmZug'];
     $anspruchfeld = $Partie[$feld];
 
-
+    echo $feld;
     if ($AmZug == $Spieler_ID) {
         global $NeuerZug;
         if ($Spieler_ID == $Spieler1) {
@@ -100,7 +100,6 @@ function setfeld($Spiel_ID, $feld, $Spieler_ID)
             $db_Befehl = "UPDATE `spielfeld` SET " . $feld . "=?, AmZug = ? WHERE SpielID = ?";
             $statement = $mysqli->prepare($db_Befehl);
             $statement->bind_param('iii', $Spieler_ID, $NeuerZug, $Spiel_ID);
-
             $statement->execute();
             echo "<br>Zug erfolgt";
         }else{
@@ -117,7 +116,6 @@ function setfeld($Spiel_ID, $feld, $Spieler_ID)
 function partiebeitreten($Spiel_ID, $userid)
 {
 
-    // es fehlt noch ne abfrage ob man selber schon im spiel ist
 
     $mysqli = new mysqli("localhost", "root", "", "database");
     if ($mysqli->connect_errno) {
@@ -126,12 +124,24 @@ function partiebeitreten($Spiel_ID, $userid)
 
     $_SESSION['SpielId'] = $Spiel_ID;
 
-    $db_Befehl = "UPDATE `spielfeld` SET Spieler2 = ? WHERE SpielID = ?";
+    $db_Befehl = "SELECT * FROM spielfeld WHERE SpielID = ?";
     $statement = $mysqli->prepare($db_Befehl);
-    $statement->bind_param('ii', $userid, $Spiel_ID);
-
+    $statement->bind_param('i', $Spiel_ID);
     $statement->execute();
 
+    $result = $statement->get_result();
+    $Partie = $result->fetch_assoc();
+
+    if ($Partie['Spieler1'] == $userid || $Partie['Spieler2'] == $userid){
+        echo "<br><br>schon im Spiel";
+    }else {
+        $db_Befehl = "UPDATE `spielfeld` SET Spieler2 = ? WHERE SpielID = ?";
+        $statement = $mysqli->prepare($db_Befehl);
+        $statement->bind_param('ii', $userid, $Spiel_ID);
+        $statement->execute();
+
+        echo "<br><br>erfolgreich beigetreten";
+    }
 }
 
 function gebepartienaus()
