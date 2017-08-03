@@ -132,7 +132,9 @@ function partiebeitreten($Spiel_ID, $userid)
     $result = $statement->get_result();
     $Partie = $result->fetch_assoc();
 
-    if ($Partie['Spieler1'] == $userid || $Partie['Spieler2'] == $userid){
+    if($Partie['Spieler2'] != 0){
+        echo "<br><br>Spiel schon voll";
+    }else if ($Partie['Spieler1'] == $userid || $Partie['Spieler2'] == $userid){
         echo "<br><br>schon im Spiel";
     }else {
         $db_Befehl = "UPDATE `spielfeld` SET Spieler2 = ? WHERE SpielID = ?";

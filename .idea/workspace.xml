@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0a5c526d-6b05-4a12-ad6c-e85772e004af" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PHP/gamelogik.php" afterPath="$PROJECT_DIR$/PHP/gamelogik.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.txt" afterPath="$PROJECT_DIR$/readme.txt" />
     </list>
     <ignored path="htdocs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,40 +27,40 @@
       <file leaf-file-name="gamelogik.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PHP/gamelogik.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="142" column="47" lean-forward="false" selection-start-line="142" selection-start-column="47" selection-end-line="142" selection-end-column="47" />
+            <state relative-caret-position="409">
+              <caret line="140" column="50" lean-forward="true" selection-start-line="140" selection-start-column="50" selection-end-line="140" selection-end-column="50" />
               <folding>
-                <marker date="1501776468000" expanded="true" signature="1240:1311" ph="INSERT INTO `spielfeld`... " />
-                <marker date="1501776468000" expanded="true" signature="1834:1874" ph="SELECT * FRO... spielfeld" />
-                <marker date="1501776468000" expanded="true" signature="1834:1875" ph="SELECT * FRO... spielfeld" />
-                <marker date="1501776468000" expanded="true" signature="2601:2668" ph="UPDATE `spie... " />
-                <marker date="1501776468000" expanded="true" signature="3361:3402" ph="SELECT * FRO... spielfeld" />
-                <marker date="1501776468000" expanded="true" signature="3751:3804" ph="UPDATE `spie... " />
-                <marker date="1501776468000" expanded="true" signature="4230:4253" ph="SELECT * FRO... spielfeld" />
-                <marker date="1501776468000" expanded="true" signature="5055:5096" ph="SELECT * FRO... spielfeld" />
-                <marker date="1501776468000" expanded="true" signature="5509:5753" ph="..." />
-                <marker date="1501776468000" expanded="true" signature="5509:6445" ph="..." />
-                <marker date="1501776468000" expanded="true" signature="5524:5552" ph="..." />
-                <marker date="1501776468000" expanded="true" signature="5524:5738" ph="..." />
-                <marker date="1501776468000" expanded="true" signature="5753:5770" ph="..." />
-                <marker date="1501776468000" expanded="true" signature="5753:6445" ph="..." />
-                <marker date="1501776468000" expanded="true" signature="5799:6428" ph="..." />
-                <marker date="1501776468000" expanded="true" signature="5812:5842" ph="..." />
-                <marker date="1501776468000" expanded="true" signature="5812:6428" ph="..." />
-                <marker date="1501776468000" expanded="true" signature="6447:6455" ph="..." />
-                <marker date="1501776468000" expanded="true" signature="6447:6492" ph="..." />
-                <marker date="1501776468000" expanded="true" signature="6447:9225" ph="..." />
-                <marker date="1501776468000" expanded="true" signature="6467:6492" ph="..." />
-                <marker date="1501776468000" expanded="true" signature="6921:6946" ph="..." />
-                <marker date="1501776468000" expanded="true" signature="6921:7367" ph="..." />
-                <marker date="1501776468000" expanded="true" signature="7380:7405" ph="..." />
-                <marker date="1501776468000" expanded="true" signature="7380:7828" ph="..." />
-                <marker date="1501776468000" expanded="true" signature="7841:7866" ph="..." />
-                <marker date="1501776468000" expanded="true" signature="7841:8289" ph="..." />
-                <marker date="1501776468000" expanded="true" signature="8302:8327" ph="..." />
-                <marker date="1501776468000" expanded="true" signature="8302:8750" ph="..." />
-                <marker date="1501776468000" expanded="true" signature="8763:8788" ph="..." />
-                <marker date="1501776468000" expanded="true" signature="8763:9211" ph="..." />
+                <marker date="1501776728000" expanded="true" signature="1240:1311" ph="INSERT INTO `spielfeld`... " />
+                <marker date="1501776728000" expanded="true" signature="1834:1874" ph="SELECT * FRO... spielfeld" />
+                <marker date="1501776728000" expanded="true" signature="1834:1875" ph="SELECT * FRO... spielfeld" />
+                <marker date="1501776728000" expanded="true" signature="2601:2668" ph="UPDATE `spie... " />
+                <marker date="1501776728000" expanded="true" signature="3361:3402" ph="SELECT * FRO... spielfeld" />
+                <marker date="1501776728000" expanded="true" signature="3832:3885" ph="UPDATE `spie... " />
+                <marker date="1501776728000" expanded="true" signature="4311:4334" ph="SELECT * FRO... spielfeld" />
+                <marker date="1501776728000" expanded="true" signature="5136:5177" ph="SELECT * FRO... spielfeld" />
+                <marker date="1501776728000" expanded="true" signature="5590:5834" ph="..." />
+                <marker date="1501776728000" expanded="true" signature="5590:6526" ph="..." />
+                <marker date="1501776728000" expanded="true" signature="5605:5633" ph="..." />
+                <marker date="1501776728000" expanded="true" signature="5605:5819" ph="..." />
+                <marker date="1501776728000" expanded="true" signature="5834:5851" ph="..." />
+                <marker date="1501776728000" expanded="true" signature="5834:6526" ph="..." />
+                <marker date="1501776728000" expanded="true" signature="5880:6509" ph="..." />
+                <marker date="1501776728000" expanded="true" signature="5893:5923" ph="..." />
+                <marker date="1501776728000" expanded="true" signature="5893:6509" ph="..." />
+                <marker date="1501776728000" expanded="true" signature="6528:6536" ph="..." />
+                <marker date="1501776728000" expanded="true" signature="6528:6573" ph="..." />
+                <marker date="1501776728000" expanded="true" signature="6528:9306" ph="..." />
+                <marker date="1501776728000" expanded="true" signature="6548:6573" ph="..." />
+                <marker date="1501776728000" expanded="true" signature="7002:7027" ph="..." />
+                <marker date="1501776728000" expanded="true" signature="7002:7448" ph="..." />
+                <marker date="1501776728000" expanded="true" signature="7461:7486" ph="..." />
+                <marker date="1501776728000" expanded="true" signature="7461:7909" ph="..." />
+                <marker date="1501776728000" expanded="true" signature="7922:7947" ph="..." />
+                <marker date="1501776728000" expanded="true" signature="7922:8370" ph="..." />
+                <marker date="1501776728000" expanded="true" signature="8383:8408" ph="..." />
+                <marker date="1501776728000" expanded="true" signature="8383:8831" ph="..." />
+                <marker date="1501776728000" expanded="true" signature="8844:8869" ph="..." />
+                <marker date="1501776728000" expanded="true" signature="8844:9292" ph="..." />
               </folding>
             </state>
           </provider>
@@ -379,12 +378,12 @@
       <workItem from="1501535490465" duration="4057000" />
       <workItem from="1501572232966" duration="24124000" />
       <workItem from="1501603441534" duration="13601000" />
-      <workItem from="1501675755316" duration="28679000" />
+      <workItem from="1501675755316" duration="28996000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72327000" />
+    <option name="totallyTimeSpent" value="72644000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="23" width="1262" height="773" extended-state="0" />
@@ -600,40 +599,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PHP/gamelogik.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="142" column="47" lean-forward="false" selection-start-line="142" selection-start-column="47" selection-end-line="142" selection-end-column="47" />
+        <state relative-caret-position="409">
+          <caret line="140" column="50" lean-forward="true" selection-start-line="140" selection-start-column="50" selection-end-line="140" selection-end-column="50" />
           <folding>
-            <marker date="1501776468000" expanded="true" signature="1240:1311" ph="INSERT INTO `spielfeld`... " />
-            <marker date="1501776468000" expanded="true" signature="1834:1874" ph="SELECT * FRO... spielfeld" />
-            <marker date="1501776468000" expanded="true" signature="1834:1875" ph="SELECT * FRO... spielfeld" />
-            <marker date="1501776468000" expanded="true" signature="2601:2668" ph="UPDATE `spie... " />
-            <marker date="1501776468000" expanded="true" signature="3361:3402" ph="SELECT * FRO... spielfeld" />
-            <marker date="1501776468000" expanded="true" signature="3751:3804" ph="UPDATE `spie... " />
-            <marker date="1501776468000" expanded="true" signature="4230:4253" ph="SELECT * FRO... spielfeld" />
-            <marker date="1501776468000" expanded="true" signature="5055:5096" ph="SELECT * FRO... spielfeld" />
-            <marker date="1501776468000" expanded="true" signature="5509:5753" ph="..." />
-            <marker date="1501776468000" expanded="true" signature="5509:6445" ph="..." />
-            <marker date="1501776468000" expanded="true" signature="5524:5552" ph="..." />
-            <marker date="1501776468000" expanded="true" signature="5524:5738" ph="..." />
-            <marker date="1501776468000" expanded="true" signature="5753:5770" ph="..." />
-            <marker date="1501776468000" expanded="true" signature="5753:6445" ph="..." />
-            <marker date="1501776468000" expanded="true" signature="5799:6428" ph="..." />
-            <marker date="1501776468000" expanded="true" signature="5812:5842" ph="..." />
-            <marker date="1501776468000" expanded="true" signature="5812:6428" ph="..." />
-            <marker date="1501776468000" expanded="true" signature="6447:6455" ph="..." />
-            <marker date="1501776468000" expanded="true" signature="6447:6492" ph="..." />
-            <marker date="1501776468000" expanded="true" signature="6447:9225" ph="..." />
-            <marker date="1501776468000" expanded="true" signature="6467:6492" ph="..." />
-            <marker date="1501776468000" expanded="true" signature="6921:6946" ph="..." />
-            <marker date="1501776468000" expanded="true" signature="6921:7367" ph="..." />
-            <marker date="1501776468000" expanded="true" signature="7380:7405" ph="..." />
-            <marker date="1501776468000" expanded="true" signature="7380:7828" ph="..." />
-            <marker date="1501776468000" expanded="true" signature="7841:7866" ph="..." />
-            <marker date="1501776468000" expanded="true" signature="7841:8289" ph="..." />
-            <marker date="1501776468000" expanded="true" signature="8302:8327" ph="..." />
-            <marker date="1501776468000" expanded="true" signature="8302:8750" ph="..." />
-            <marker date="1501776468000" expanded="true" signature="8763:8788" ph="..." />
-            <marker date="1501776468000" expanded="true" signature="8763:9211" ph="..." />
+            <marker date="1501776728000" expanded="true" signature="1240:1311" ph="INSERT INTO `spielfeld`... " />
+            <marker date="1501776728000" expanded="true" signature="1834:1874" ph="SELECT * FRO... spielfeld" />
+            <marker date="1501776728000" expanded="true" signature="1834:1875" ph="SELECT * FRO... spielfeld" />
+            <marker date="1501776728000" expanded="true" signature="2601:2668" ph="UPDATE `spie... " />
+            <marker date="1501776728000" expanded="true" signature="3361:3402" ph="SELECT * FRO... spielfeld" />
+            <marker date="1501776728000" expanded="true" signature="3832:3885" ph="UPDATE `spie... " />
+            <marker date="1501776728000" expanded="true" signature="4311:4334" ph="SELECT * FRO... spielfeld" />
+            <marker date="1501776728000" expanded="true" signature="5136:5177" ph="SELECT * FRO... spielfeld" />
+            <marker date="1501776728000" expanded="true" signature="5590:5834" ph="..." />
+            <marker date="1501776728000" expanded="true" signature="5590:6526" ph="..." />
+            <marker date="1501776728000" expanded="true" signature="5605:5633" ph="..." />
+            <marker date="1501776728000" expanded="true" signature="5605:5819" ph="..." />
+            <marker date="1501776728000" expanded="true" signature="5834:5851" ph="..." />
+            <marker date="1501776728000" expanded="true" signature="5834:6526" ph="..." />
+            <marker date="1501776728000" expanded="true" signature="5880:6509" ph="..." />
+            <marker date="1501776728000" expanded="true" signature="5893:5923" ph="..." />
+            <marker date="1501776728000" expanded="true" signature="5893:6509" ph="..." />
+            <marker date="1501776728000" expanded="true" signature="6528:6536" ph="..." />
+            <marker date="1501776728000" expanded="true" signature="6528:6573" ph="..." />
+            <marker date="1501776728000" expanded="true" signature="6528:9306" ph="..." />
+            <marker date="1501776728000" expanded="true" signature="6548:6573" ph="..." />
+            <marker date="1501776728000" expanded="true" signature="7002:7027" ph="..." />
+            <marker date="1501776728000" expanded="true" signature="7002:7448" ph="..." />
+            <marker date="1501776728000" expanded="true" signature="7461:7486" ph="..." />
+            <marker date="1501776728000" expanded="true" signature="7461:7909" ph="..." />
+            <marker date="1501776728000" expanded="true" signature="7922:7947" ph="..." />
+            <marker date="1501776728000" expanded="true" signature="7922:8370" ph="..." />
+            <marker date="1501776728000" expanded="true" signature="8383:8408" ph="..." />
+            <marker date="1501776728000" expanded="true" signature="8383:8831" ph="..." />
+            <marker date="1501776728000" expanded="true" signature="8844:8869" ph="..." />
+            <marker date="1501776728000" expanded="true" signature="8844:9292" ph="..." />
           </folding>
         </state>
       </provider>
