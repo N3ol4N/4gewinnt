@@ -8,6 +8,7 @@ if (!isset($_SESSION['userid'])) {
 $username = $_SESSION['username'];
 $userid = $_SESSION['userid'];
 
+//dient lediglich dem Test dass man variablen über sessions weitergibt
 echo "Hallo User: " . $username . "\n";
 echo "<br>";
 
@@ -22,6 +23,7 @@ echo "<br>";
 <br>
 <br>
 
+<!--weiterleitung nach dem einloggen-->
 <form action="logout.php">
     <input type="submit" value="logout">
 </form>

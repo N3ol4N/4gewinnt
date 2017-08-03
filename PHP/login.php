@@ -2,6 +2,7 @@
 session_start();
 $pdo = new PDO('mysql:host=localhost;dbname=database', 'root', '');
 
+//prüft ob das loginformular abgeschickt wurde
 if (isset($_GET['login'])) {
     $email = $_POST['email'];
     $passwort = $_POST['passwort'];
@@ -31,6 +32,7 @@ if (isset($_GET['login'])) {
 <body>
 
 <?php
+// zeigt eigenen fehler wenn einer auftritt
 if (isset($errorMessage)) {
     echo $errorMessage;
 }

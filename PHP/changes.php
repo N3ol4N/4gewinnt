@@ -2,6 +2,7 @@
 session_start();
 $pdo = new PDO('mysql:host=localhost;dbname=database', 'root', '');
 
+//fragt ob die id gesetzt ist
 if (!isset($_SESSION['userid'])) {
     die('Bitte zuerst <a href="login.php">einloggen</a>');
 }
@@ -11,12 +12,13 @@ $username = $_SESSION['username'];
 $user = $_SESSION['userid'];
 $showFormular = true;
 
-
+//zeige den Nicknamen und die Email an
 $statement = "SELECT * FROM users WHERE id = $user";
 $userload = $pdo->query($statement)->fetch();
 echo "Nickname: " . $userload['nickname'] . "<br />" . "<br />";
 echo "E-Mail: " . $userload['email'] . "<br />";
 
+//checkt ob die textfelder eingegeben sind
 if (isset($_GET['changemail'])) {
     $error = false;
     $newmail = $_POST['changedmail'];
@@ -25,12 +27,15 @@ if (isset($_GET['changemail'])) {
     if (!$error) {
         $link = mysqli_connect("localhost", "root", "", "database");
 
+        //updated die mail
         if ($newmail) {
             $update = "UPDATE users SET email = '$newmail' WHERE id = $user";
             mysqli_query($link, $update);
             echo 'Email erfolgreich geändert.<br>';
             $showFormular = false;
         }
+
+        //updated den nickname
         if ($newnick) {
             $update = "UPDATE users SET nickname = '$newnick' WHERE id = $user";
             mysqli_query($link, $update);

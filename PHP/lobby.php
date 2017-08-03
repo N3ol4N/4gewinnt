@@ -8,14 +8,16 @@
 <?php
 session_start();
 
+//prüft ob eine userid vorhanden ist
 if (!isset($_SESSION['userid'])) {
     die('Bitte zuerst <a href="login.php">einloggen</a>');
 }
 
+//setzt session variabeln für für den user
 $username = $_SESSION['username'];
 $userid = $_SESSION['userid'];
 
-echo "Hallo in der Lobby User: " . $username;
+echo "Hallo und willkommen in der Lobby User: " . $username;
 ?>
 
 <?php

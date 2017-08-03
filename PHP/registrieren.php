@@ -1,6 +1,6 @@
 <?php
 session_start();
-$pdo = new PDO('mysql:host=localhost;dbname=database', 'root', '');
+$pdo = new PDO('mysql:host=localhost;dbname=database', 'root', ''); //pdo ist alternative zu mysqli
 ?>
 <!DOCTYPE html>
 <html>
@@ -10,8 +10,10 @@ $pdo = new PDO('mysql:host=localhost;dbname=database', 'root', '');
 <body>
 
 <?php
-$showFormular = true; //Variable ob das Registrierungsformular angezeigt werden soll
+//Variable ob das Registrierungsformular angezeigt werden soll
+$showFormular = true;
 
+//prüft ob formular "register" abgeschickt wurde und erstellt diverse POST-variablen
 if (isset($_GET['register'])) {
     $error = false;
     $email = $_POST['email'];
@@ -22,14 +24,19 @@ if (isset($_GET['register'])) {
     $nachname = $_POST['nachname'];
     $geschlecht = $_POST['geschlecht'];
 
+    //prüft ob email format eingehalten wird
     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
         echo 'Bitte eine gültige E-Mail-Adresse eingeben<br>';
         $error = true;
     }
+
+    //prüft ob passwort vorhanden ist
     if (strlen($passwort) == 0) {
         echo 'Bitte ein Passwort angeben<br>';
         $error = true;
     }
+
+    //prüft ob passwort richtig wiederholt wurde
     if ($passwort != $passwort2) {
         echo 'Die Passwörter müssen übereinstimmen<br>';
         $error = true;
@@ -59,7 +66,7 @@ if (isset($_GET['register'])) {
         }
     }
 
-    //Keine Fehler, wir können den Nutzer registrieren
+    //bei fehlerfreiheit wird der Nutzer registriert
     if (!$error) {
         $passwort_hash = password_hash($passwort, PASSWORD_DEFAULT);
         $challenge = md5(rand() . time());
@@ -76,6 +83,7 @@ if (isset($_GET['register'])) {
     }
 }
 
+//zeigt das formular an wenn showFormular auf true ist
 if ($showFormular) {
     ?>
 

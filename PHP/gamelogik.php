@@ -40,7 +40,7 @@ partiebeitreten($Spiel_ID, $userid);
 //gebepartienaus();
 //spielfeldausgabe($Spiel_ID);
 
-
+//eröffnet ein spiel
 function spieleroeffnen($Spieler1_ID, $Spieler2_ID, $AmZug)
 {
     $mysqli = new mysqli("localhost", "root", "", "database");
@@ -63,6 +63,7 @@ function spieleroeffnen($Spieler1_ID, $Spieler2_ID, $AmZug)
     return;
 }
 
+//setzt ein feld in der Spielfeld datenbank
 function setfeld($Spiel_ID, $feld, $Spieler_ID)
 {
     $mysqli = new mysqli("localhost", "root", "", "database");
@@ -85,6 +86,8 @@ function setfeld($Spiel_ID, $feld, $Spieler_ID)
     $anspruchfeld = $Partie[$feld];
 
     echo $feld;
+
+    //überprüft ob der aufrufende spieler am zug ist
     if ($AmZug == $Spieler_ID) {
         global $NeuerZug;
         if ($Spieler_ID == $Spieler1) {
@@ -94,6 +97,7 @@ function setfeld($Spiel_ID, $feld, $Spieler_ID)
             $NeuerZug = $Spieler1;
         }
 
+        //prüft ob schon belegt ist
         if($anspruchfeld != $Spieler1 && $anspruchfeld != $Spieler2) {
 
             //ändere das gesetzte Feld
@@ -102,6 +106,8 @@ function setfeld($Spiel_ID, $feld, $Spieler_ID)
             $statement->bind_param('iii', $Spieler_ID, $NeuerZug, $Spiel_ID);
             $statement->execute();
             echo "<br>Zug erfolgt";
+
+            //hier muss noch eine abfrage rein ob ein feld mit "$feld" +7 frei ist
         }else{
             echo "schon belegt";
         }
@@ -113,6 +119,7 @@ function setfeld($Spiel_ID, $feld, $Spieler_ID)
     }
 }
 
+//lässt aufrufenden Spieler einer partie beitreten
 function partiebeitreten($Spiel_ID, $userid)
 {
 
@@ -132,10 +139,15 @@ function partiebeitreten($Spiel_ID, $userid)
     $result = $statement->get_result();
     $Partie = $result->fetch_assoc();
 
+    //prüft ob noch platz in der partie ist
     if($Partie['Spieler2'] != 0){
         echo "<br><br>Spiel schon voll";
+
+    // prüft ob aufrufender spieler schon in der partie ist
     }else if ($Partie['Spieler1'] == $userid || $Partie['Spieler2'] == $userid){
         echo "<br><br>schon im Spiel";
+
+    // fügt aufrufenden spieler der partie als spieler 2 hinzu
     }else {
         $db_Befehl = "UPDATE `spielfeld` SET Spieler2 = ? WHERE SpielID = ?";
         $statement = $mysqli->prepare($db_Befehl);
@@ -146,6 +158,7 @@ function partiebeitreten($Spiel_ID, $userid)
     }
 }
 
+//konzept zum ausgeben der partien
 function gebepartienaus()
 {
     $mysqli = new mysqli("localhost", "root", "", "database");
@@ -159,6 +172,7 @@ function gebepartienaus()
 
     $result = $statement->get_result();
 
+    //iteriert über alle bestehenden spiele und gibt dabei id, spiler und am zug aus
     while ($row = $result->fetch_assoc()) {
         echo "<br>";
         echo "SpielID :  ";
@@ -176,6 +190,7 @@ function gebepartienaus()
     }
 }
 
+//konzept zum ausgeben des Spielfeldes
 function spielfeldausgabe($Spiel_ID)
 {
     $mysqli = new mysqli("localhost", "root", "", "database");
@@ -189,6 +204,8 @@ function spielfeldausgabe($Spiel_ID)
     $statement->execute();
 
     $result = $statement->get_result();
+
+    //gibt spieler vs spieler aus
     while ($row = $result->fetch_assoc()) {
 
         echo "<br>";
