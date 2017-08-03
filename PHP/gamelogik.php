@@ -23,19 +23,20 @@ $AmZug = $userid;
 $LetzterZug = $userid;
 
 $Spieler_ID = $Spieler1_ID;
-//$Spiel_ID = $_SESSION['SpielId'];
 
-$Spiel_ID = 6; //zum testen
+$Spiel_ID = $_SESSION['SpielId'];
 
-$feld = "Feld1";
+//$Spiel_ID = 2; //zum testen für die partiebeitreten funktion
+
+$feld = "Feld5";
 
 echo "spielerid: " . $userid;
 echo "<br>";
 echo "spieloffen: " . $Spiel_ID;
 
 //spieleroeffnen($Spieler1_ID, $Spieler2_ID, $AmZug);
-setfeld($Spiel_ID, $feld, $Spieler_ID);
 //partiebeitreten($Spiel_ID, $userid);
+//setfeld($Spiel_ID, $feld, $Spieler_ID);
 //gebepartienaus();
 //spielfeldausgabe($Spiel_ID);
 
@@ -81,7 +82,7 @@ function setfeld($Spiel_ID, $feld, $Spieler_ID)
     $Spieler1 = $Partie['Spieler1'];
     $Spieler2 = $Partie['Spieler2'];
     $AmZug = $Partie['AmZug'];
-    $anspruchfeld = $Partie["Feld1"];
+    $anspruchfeld = $Partie[$feld];
 
 
     if ($AmZug == $Spieler_ID) {
@@ -115,12 +116,15 @@ function setfeld($Spiel_ID, $feld, $Spieler_ID)
 
 function partiebeitreten($Spiel_ID, $userid)
 {
+
+    // es fehlt noch ne abfrage ob man selber schon im spiel ist
+
     $mysqli = new mysqli("localhost", "root", "", "database");
     if ($mysqli->connect_errno) {
         die("Fehler bei der Netzwerkverbindung" . $mysqli->connect_errno);
     }
 
-    //hier irgendwo muss ich die Sessionvariable für SpielId setzen
+    $_SESSION['SpielId'] = $Spiel_ID;
 
     $db_Befehl = "UPDATE `spielfeld` SET Spieler2 = ? WHERE SpielID = ?";
     $statement = $mysqli->prepare($db_Befehl);
