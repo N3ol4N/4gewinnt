@@ -71,8 +71,8 @@ if (isset($_GET['register'])) {
         $passwort_hash = password_hash($passwort, PASSWORD_DEFAULT);
         $challenge = md5(rand() . time());
 
-        $statement = $pdo->prepare("INSERT INTO users (nickname, email, passwort, vorname, nachname, geschlecht, challenge) VALUES (:nickname, :email, :passwort, :vorname, :nachname, :geschlecht, :challenge)");
-        $result = $statement->execute(array('nickname' => $nickname, 'email' => $email, 'passwort' => $passwort_hash, 'vorname' => $vorname, 'nachname' => $nachname, 'geschlecht' => $geschlecht, 'challenge' => $challenge));
+        $statement = $pdo->prepare("INSERT INTO users (nickname, email, passwort, vorname, nachname, geschlecht, useralter, challenge) VALUES (:nickname, :email, :passwort, :vorname, :nachname, :geschlecht, :useralter, :challenge)");
+        $result = $statement->execute(array('nickname' => $nickname, 'email' => $email, 'passwort' => $passwort_hash, 'vorname' => $vorname, 'nachname' => $nachname, 'geschlecht' => $geschlecht, 'useralter'=> $useralter, 'challenge' => $challenge));
 
         if ($result) {
             echo 'Du wurdest erfolgreich registriert. <a href="login.php">Zum Login</a>';
@@ -100,11 +100,14 @@ if ($showFormular) {
         Passwort wiederholen *:<br>
         <input type="password" size="40" maxlength="250" name="passwort2" required><br><br>
 
-        Vorname:<br>
+        Vorname :<br>
         <input type="text" size="40" maxlength="250" name="vorname"><br><br>
 
-        Nachname:<br>
+        Nachname :<br>
         <input type="text" size="40" maxlength="250" name="nachname"><br><br>
+
+        Alter :<br>
+        <input type="text" size="40" maxlength="250" name="useralter"><br><br>
 
         <label>Geschlecht:
             <select name="geschlecht">
