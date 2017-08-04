@@ -22,7 +22,7 @@ $username = $_SESSION['username'];
 $userid = $_SESSION['userid'];
 
 $Spiel_ID = $_GET['SpielID'];
-echo "Sie sind wurden zu Spiel $Spiel_ID hinzugefügt";
+echo "Sie wollen dem Spiel $Spiel_ID beitreten";
 
 partiebeitreten($Spiel_ID, $userid);
 
@@ -49,11 +49,13 @@ function partiebeitreten($Spiel_ID, $userid)
 
     //prüft ob noch platz in der partie ist
     if ($Partie['Spieler2'] != 0) {
-        echo "<br><br>Spiel schon voll";
+        echo "<br><br>Spiel schon voll <br>";
+        echo "<a href=\"lobby.php\">Zurück zur Lobby</a>";
 
         // prüft ob aufrufender spieler schon in der partie ist
     } else if ($Partie['Spieler1'] == $userid || $Partie['Spieler2'] == $userid) {
-        echo "<br><br>schon im Spiel";
+        echo "<br><br>schon im Spiel. Zuweißung verweigert! <br>";
+        echo "<a href=\"lobby.php\">Zurück zur Lobby</a>";
 
         // fügt aufrufenden spieler der partie als spieler 2 hinzu
     } else {
@@ -62,7 +64,8 @@ function partiebeitreten($Spiel_ID, $userid)
         $statement->bind_param('ii', $userid, $Spiel_ID);
         $statement->execute();
 
-        echo "<br><br>erfolgreich beigetreten";
+        echo "<br><br>erfolgreich beigetreten<br>";
+        echo '<a href="lobby.php">Zurück zur Lobby</a>';
     }
 }
 

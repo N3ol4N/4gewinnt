@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a5c526d-6b05-4a12-ad6c-e85772e004af" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PHP/lobby.php" afterPath="$PROJECT_DIR$/PHP/lobby.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PHP/partiebeitreten.php" afterPath="$PROJECT_DIR$/PHP/partiebeitreten.php" />
     </list>
     <ignored path="htdocs.iws" />
@@ -100,11 +99,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="createpartie.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="createpartie.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PHP/createpartie.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="52" column="1" lean-forward="false" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
+            <state relative-caret-position="270">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
                 <marker date="1501843517000" expanded="true" signature="895:966" ph="INSERT INTO `spielfeld`... " />
               </folding>
@@ -132,21 +131,21 @@
       <file leaf-file-name="internerbereich.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PHP/internerbereich.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+            <state relative-caret-position="45">
+              <caret line="3" column="55" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="55" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="partiebeitreten.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="partiebeitreten.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PHP/partiebeitreten.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="519">
+              <caret line="67" column="28" lean-forward="true" selection-start-line="67" selection-start-column="28" selection-end-line="67" selection-end-column="28" />
               <folding>
-                <marker date="1501843517000" expanded="true" signature="927:968" ph="SELECT * FRO... spielfeld" />
-                <marker date="1501843517000" expanded="true" signature="1580:1633" ph="UPDATE `spie... " />
+                <marker date="1501843850000" expanded="true" signature="921:962" ph="SELECT * FRO... spielfeld" />
+                <marker date="1501843850000" expanded="true" signature="1725:1778" ph="UPDATE `spie... " />
               </folding>
             </state>
           </provider>
@@ -281,8 +280,8 @@
         <option value="$PROJECT_DIR$/HTML/Index.html" />
         <option value="$PROJECT_DIR$/PHP/lobby.php" />
         <option value="$PROJECT_DIR$/PHP/gamelogik.php" />
-        <option value="$PROJECT_DIR$/PHP/partiebeitreten.php" />
         <option value="$PROJECT_DIR$/PHP/createpartie.php" />
+        <option value="$PROJECT_DIR$/PHP/partiebeitreten.php" />
       </list>
     </option>
   </component>
@@ -459,12 +458,12 @@
       <workItem from="1501535490465" duration="4057000" />
       <workItem from="1501572232966" duration="24124000" />
       <workItem from="1501603441534" duration="13601000" />
-      <workItem from="1501675755316" duration="39764000" />
+      <workItem from="1501675755316" duration="40074000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83412000" />
+    <option name="totallyTimeSpent" value="83722000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="23" width="1262" height="773" extended-state="0" />
@@ -686,14 +685,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/internerbereich.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HTML/Index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
@@ -765,23 +756,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/partiebeitreten.php">
+    <entry file="file://$PROJECT_DIR$/PHP/createpartie.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="270">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
-            <marker date="1501843517000" expanded="true" signature="927:968" ph="SELECT * FRO... spielfeld" />
-            <marker date="1501843517000" expanded="true" signature="1580:1633" ph="UPDATE `spie... " />
+            <marker date="1501843517000" expanded="true" signature="895:966" ph="INSERT INTO `spielfeld`... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/createpartie.php">
+    <entry file="file://$PROJECT_DIR$/PHP/internerbereich.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="52" column="1" lean-forward="false" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
+        <state relative-caret-position="45">
+          <caret line="3" column="55" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/partiebeitreten.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="67" column="28" lean-forward="true" selection-start-line="67" selection-start-column="28" selection-end-line="67" selection-end-column="28" />
           <folding>
-            <marker date="1501843517000" expanded="true" signature="895:966" ph="INSERT INTO `spielfeld`... " />
+            <marker date="1501843850000" expanded="true" signature="921:962" ph="SELECT * FRO... spielfeld" />
+            <marker date="1501843850000" expanded="true" signature="1725:1778" ph="UPDATE `spie... " />
           </folding>
         </state>
       </provider>
