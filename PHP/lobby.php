@@ -50,6 +50,11 @@ echo '
     <form action="createpartie.php?createparty=1" method="post">
         <input type="submit" value="Partie_eröffnen">
     </form>
+    
+    <br>
+    
+    <a href="../HTML/index.html">Zurück zur Startseite</a>
+
 ';
 
 
