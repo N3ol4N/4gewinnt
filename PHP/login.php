@@ -16,7 +16,7 @@ if (isset($_GET['login'])) {
         $_SESSION['userid'] = $user['id'];
         $_SESSION['username'] = $user['nickname'];
 
-        die('Login erfolgreich. Weiter zu <a href="internerbereich.php">internem Bereich</a>');
+        die('Login erfolgreich. Weiter zur <a href="internerbereich.php">Lobby</a>');
     } else {
         $errorMessage = "E-Mail oder Passwort war ungültig<br>";
     }

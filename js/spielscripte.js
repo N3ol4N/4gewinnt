@@ -19,3 +19,25 @@ function spalte(i) {
         }
     }
 }
+
+/*
+//nochfehlerhaft
+function ausloggen() {
+    $('#ausloggen')
+}
+
+//nochfehlerhaft
+function einloggen() {
+    $('#einloggen').click(function() {
+       window.location='localhost/php/login.php'
+    });
+}
+
+function registrieren() {
+    $.ajax({
+        url: "../PHP/registrieren.php",
+        type: "POST",
+    })
+}
+*/
+
