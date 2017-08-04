@@ -33,13 +33,21 @@ echo "laufende Partien";
 gebepartienaus();
 echo "<br>";
 
-
-/*
-if (isset($_GET['createparty']))
-
-    $statement = $mysqli->prepare("INSERT INTO lobby (Spieler1) VALUES (:Spieler1)");
-    $statement->execute(array('Spieler1' => 'userid'));
-*/
+echo '
+    <br>
+    <br>
+    <a>Farben auswählen</a>
+    <form action="createpartie.php?createparty=1" method="post">
+        <fieldset>
+            <input type="radio" id="rg" name="Farbe" value="ROTGELB" checked="checked">
+            <label for="rg"> ROT/GELB</label><br>
+            <input type="radio" id="sw" name="Farbe" value="SCHWARZWEISS">
+            <label for="sw"> SCHWARZ/WEISS</label><br>
+            <input type="radio" id="gb" name="Farbe" value="GRUENBRAUN">
+            <label for="gb"> GRUEN/BRAUN</label>
+        </fieldset>
+        <input type="submit" value="Partie_eröffnen">
+';
 
 
 //_________________________funktionen______
@@ -77,21 +85,6 @@ function gebepartienaus()
 
 ?>
 
-<br>
-<br>
-<a>Farben auswählen</a>
-<form action="?createparty=1" method="post">
-    <fieldset>
-        <input type="radio" id="rg" name="Farbe" value="ROTGELB" checked="checked">
-        <label for="rg"> ROT/GELB</label><br>
-        <input type="radio" id="sw" name="Farbe" value="SCHWARZWEISS">
-        <label for="sw"> SCHWARZ/WEISS</label><br>
-        <input type="radio" id="gb" name="Farbe" value="GRUENBRAUN">
-        <label for="gb"> GRUEN/BRAUN</label>
-    </fieldset>
-    <input type="submit" value="Partie eröffnen">
-
-</form>
 
 </body>
 </html>

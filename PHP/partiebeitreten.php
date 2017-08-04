@@ -48,15 +48,15 @@ function partiebeitreten($Spiel_ID, $userid)
     $Partie = $result->fetch_assoc();
 
     //prüft ob noch platz in der partie ist
-    if($Partie['Spieler2'] != 0){
+    if ($Partie['Spieler2'] != 0) {
         echo "<br><br>Spiel schon voll";
 
         // prüft ob aufrufender spieler schon in der partie ist
-    }else if ($Partie['Spieler1'] == $userid || $Partie['Spieler2'] == $userid){
+    } else if ($Partie['Spieler1'] == $userid || $Partie['Spieler2'] == $userid) {
         echo "<br><br>schon im Spiel";
 
         // fügt aufrufenden spieler der partie als spieler 2 hinzu
-    }else {
+    } else {
         $db_Befehl = "UPDATE `spielfeld` SET Spieler2 = ? WHERE SpielID = ?";
         $statement = $mysqli->prepare($db_Befehl);
         $statement->bind_param('ii', $userid, $Spiel_ID);
