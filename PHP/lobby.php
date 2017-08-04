@@ -2,6 +2,15 @@
 <html>
 <head>
     <title>Spielelobby</title>
+
+    <script src="../js/spielscripte.js"></script>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+
+
+    <link rel="stylesheet" href="../css/stylesheet.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
 </head>
 <body>
 
@@ -17,7 +26,7 @@ if (!isset($_SESSION['userid'])) {
 $username = $_SESSION['username'];
 $userid = $_SESSION['userid'];
 
-echo "Hallo und willkommen in der Lobby, " . $username;
+echo "Hallo und willkommen in der Lobby, &nbsp" . $username;
 echo "<br>";
 ?>
 
@@ -33,20 +42,14 @@ echo "laufende Partien";
 gebepartienaus();
 echo "<br>";
 
+echo "<a href='lobby.php?'>Refresh</a>";
+
 echo '
     <br>
     <br>
-    <a>Farben auswählen</a>
     <form action="createpartie.php?createparty=1" method="post">
-        <fieldset>
-            <input type="radio" id="rg" name="Farbe" value="ROTGELB" checked="checked">
-            <label for="rg"> ROT/GELB</label><br>
-            <input type="radio" id="sw" name="Farbe" value="SCHWARZWEISS">
-            <label for="sw"> SCHWARZ/WEISS</label><br>
-            <input type="radio" id="gb" name="Farbe" value="GRUENBRAUN">
-            <label for="gb"> GRUEN/BRAUN</label>
-        </fieldset>
         <input type="submit" value="Partie_eröffnen">
+    </form>
 ';
 
 

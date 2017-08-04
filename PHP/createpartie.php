@@ -11,7 +11,6 @@ $mysqli = new mysqli('localhost', 'root', '', 'database');
 
 //prüft ob das loginformular abgeschickt wurde
 if (isset($_GET['createparty'])) {
-    $farben = $_POST['Farbe'];
     $username = $_SESSION['username'];
     $userid = $_SESSION['userid'];
 

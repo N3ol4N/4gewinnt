@@ -93,6 +93,16 @@ if (!$error) {
 <html>
 <head>
     <title>Accountmanagement</title>
+
+    <script src="../js/spielscripte.js"></script>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+
+
+
+    <link rel="stylesheet" href="../css/stylesheet.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
 </head>
 <body>
 <br>

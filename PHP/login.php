@@ -15,6 +15,7 @@ if (isset($_GET['login'])) {
     if ($user !== false && password_verify($passwort, $user['passwort'])) {
         $_SESSION['userid'] = $user['id'];
         $_SESSION['username'] = $user['nickname'];
+        $_SESSION['authentifiziert'] = $user['authentifiziert'];
 
         die('Login erfolgreich. Weiter zur <a href="internerbereich.php">Lobby</a>');
     } else {
@@ -28,6 +29,16 @@ if (isset($_GET['login'])) {
 <html>
 <head>
     <title>Login</title>
+
+    <script src="../js/spielscripte.js"></script>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+
+
+
+    <link rel="stylesheet" href="../css/stylesheet.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
 </head>
 <body>
 

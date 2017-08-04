@@ -302,4 +302,16 @@ function spielfeldausgabe($Spiel_ID)
     }
 }
 
+/*
+
+<fieldset>
+            <input type="radio" id="rg" name="Farbe" value="ROTGELB" checked="checked">
+            <label for="rg"> ROT/GELB</label><br>
+            <input type="radio" id="sw" name="Farbe" value="SCHWARZWEISS">
+            <label for="sw"> SCHWARZ/WEISS</label><br>
+            <input type="radio" id="gb" name="Farbe" value="GRUENBRAUN">
+            <label for="gb"> GRUEN/BRAUN</label>
+        </fieldset>
+*/
+
 ?>
