@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Registrierung</title>
+    <title>Spielelobby</title>
 </head>
 <body>
 
@@ -17,16 +17,63 @@ if (!isset($_SESSION['userid'])) {
 $username = $_SESSION['username'];
 $userid = $_SESSION['userid'];
 
-echo "Hallo und willkommen in der Lobby User: " . $username;
+echo "Hallo und willkommen in der Lobby, " . $username;
+echo "<br>";
 ?>
 
 <?php
-$pdo = new PDO('mysql:host=localhost;dbname=database', 'root', '');
+$mysqli = new mysqli("localhost", "root", "", "database");
 
+if ($mysqli->connect_errno) {
+    die("Fehler bei der Netzwerkverbindung" . $mysqli->connect_errno);
+}
+
+echo "<br><br>";
+echo "laufende Partien";
+gebepartienaus();
+echo "<br>";
+
+
+/*
 if (isset($_GET['createparty']))
 
-    $statement = $pdo->prepare("INSERT INTO lobby (Spieler1) VALUES (:Spieler1)");
-$statement->execute(array('Spieler1' => 'userid'));
+    $statement = $mysqli->prepare("INSERT INTO lobby (Spieler1) VALUES (:Spieler1)");
+    $statement->execute(array('Spieler1' => 'userid'));
+*/
+
+
+//_________________________funktionen______
+
+function gebepartienaus()
+{
+    $mysqli = new mysqli("localhost", "root", "", "database");
+    if ($mysqli->connect_errno) {
+        die("Fehler bei der Netzwerkverbindung" . $mysqli->connect_errno);
+    }
+
+    $db_Befehl = "SELECT * FROM spielfeld";
+    $statement = $mysqli->prepare($db_Befehl);
+    $statement->execute();
+
+    $result = $statement->get_result();
+
+    //iteriert über alle bestehenden spiele und gibt dabei id, spiler und am zug aus
+    while ($row = $result->fetch_assoc()) {
+        echo "<br>";
+        echo " SpielID :  ";
+        echo $row['SpielID'];
+        echo "      ";
+        echo "&nbsp;&nbsp;&nbsp| Spieler1 : ";
+        echo $row['Spieler1'];
+        echo "      ";
+        echo "&nbsp;&nbsp;&nbsp| Spieler2 : ";
+        echo $row['Spieler2'];
+        echo "      ";
+        echo "&nbsp;&nbsp;&nbsp| Am Zug : ";
+        echo $row['AmZug'];
+        echo "<a href='partiebeitreten.php?" . "SpielID=" .$row['SpielID'] ."'> Beitreten</a>";
+    }
+}
 
 ?>
 

@@ -35,7 +35,7 @@ echo "<br>";
 echo "spieloffen: " . $Spiel_ID;
 
 //spieleroeffnen($Spieler1_ID, $Spieler2_ID, $AmZug);
-partiebeitreten($Spiel_ID, $userid);
+//partiebeitreten($Spiel_ID, $userid);
 //setfeld($Spiel_ID, $feld, $Spieler_ID);
 //gebepartienaus();
 //spielfeldausgabe($Spiel_ID);
@@ -175,16 +175,16 @@ function gebepartienaus()
     //iteriert über alle bestehenden spiele und gibt dabei id, spiler und am zug aus
     while ($row = $result->fetch_assoc()) {
         echo "<br>";
-        echo "SpielID :  ";
+        echo " SpielID :  ";
         echo $row['SpielID'];
         echo "      ";
-        echo "Spieler1 : ";
+        echo " | Spieler1 : ";
         echo $row['Spieler1'];
         echo "      ";
-        echo "Spieler2 : ";
+        echo " | Spieler2 : ";
         echo $row['Spieler2'];
         echo "      ";
-        echo "Am Zug : ";
+        echo " | Am Zug : ";
         echo $row['AmZug'];
         echo "<a href='test.html?" . $row['SpielID'] . "'>Beitreten</a>";
     }
