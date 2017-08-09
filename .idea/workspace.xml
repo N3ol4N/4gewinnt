@@ -2,34 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a5c526d-6b05-4a12-ad6c-e85772e004af" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/accountmanagement.php" afterPath="$PROJECT_DIR$/production/accountmanagement.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/css/bootstrap-3.3.7/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/production/css/bootstrap-3.3.7/css/bootstrap-theme.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/css/bootstrap-3.3.7/css/bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/production/css/bootstrap-3.3.7/css/bootstrap-theme.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/css/bootstrap-3.3.7/css/bootstrap-theme.min.css.map" afterPath="$PROJECT_DIR$/production/css/bootstrap-3.3.7/css/bootstrap-theme.min.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/css/bootstrap-3.3.7/css/bootstrap.css" afterPath="$PROJECT_DIR$/production/css/bootstrap-3.3.7/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/css/bootstrap-3.3.7/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/production/css/bootstrap-3.3.7/css/bootstrap.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/css/bootstrap-3.3.7/css/bootstrap.min.css.map" afterPath="$PROJECT_DIR$/production/css/bootstrap-3.3.7/css/bootstrap.min.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/css/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/production/css/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/css/bootstrap-3.3.7/js/bootstrap.js" afterPath="$PROJECT_DIR$/production/css/bootstrap-3.3.7/js/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/css/styles.css" afterPath="$PROJECT_DIR$/production/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/gametable.php" afterPath="$PROJECT_DIR$/production/gametable.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/impressum.php" afterPath="$PROJECT_DIR$/production/impressum.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/index.php" afterPath="$PROJECT_DIR$/production/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/js/functions.js" afterPath="$PROJECT_DIR$/production/js/functions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/lobby.php" afterPath="$PROJECT_DIR$/production/lobby.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/logic/authenticate.php" afterPath="$PROJECT_DIR$/production/logic/authenticate.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/logic/changes.php" afterPath="$PROJECT_DIR$/production/logic/changes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/logic/createparty.php" afterPath="$PROJECT_DIR$/production/logic/createparty.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/logic/datenbank.php" afterPath="$PROJECT_DIR$/production/logic/datenbank.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/logic/gamelogic.php" afterPath="$PROJECT_DIR$/production/logic/gamelogic.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/logic/joinparty.php" afterPath="$PROJECT_DIR$/production/logic/joinparty.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/logic/loadgamelist.php" afterPath="$PROJECT_DIR$/production/logic/loadgamelist.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/logic/login.php" afterPath="$PROJECT_DIR$/production/logic/login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/logic/logout.php" afterPath="$PROJECT_DIR$/production/logic/logout.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/logic/registration.php" afterPath="$PROJECT_DIR$/production/logic/registration.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/logic/userdata.php" afterPath="$PROJECT_DIR$/production/logic/userdata.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/registrierung.php" afterPath="$PROJECT_DIR$/production/registrierung.php" />
     </list>
     <ignored path="htdocs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,21 +24,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="registration.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/production/logic/registration.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="95" lean-forward="false" selection-start-line="10" selection-start-column="95" selection-end-line="10" selection-end-column="95" />
-              <folding>
-                <marker date="1502281276000" expanded="true" signature="1803:1839" ph="SELECT * FRO... benutzer" />
-                <marker date="1502281276000" expanded="true" signature="2310:2342" ph="SELECT * FRO... benutzer" />
-                <marker date="1502281276000" expanded="true" signature="2959:3069" ph="INSERT INTO benutzer... " />
-                <marker date="1502281276000" expanded="true" signature="3261:3295" ph="SELECT * FRO... users" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="lobby.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/production/lobby.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -96,6 +54,45 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="gamelogic.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/production/logic/gamelogic.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="623">
+              <caret line="130" column="25" lean-forward="true" selection-start-line="130" selection-start-column="25" selection-end-line="130" selection-end-column="25" />
+              <folding>
+                <marker date="1502271762000" expanded="true" signature="264:303" ph="SELECT * FRO... parties" />
+                <marker date="1502271762000" expanded="true" signature="1104:1122" ph="UPDATE parti... " />
+                <marker date="1502271762000" expanded="true" signature="1104:1123" ph="UPDATE parti... " />
+                <marker date="1502271762000" expanded="true" signature="1104:1171" ph="UPDATE `spie... " />
+                <marker date="1502271762000" expanded="true" signature="1104:1172" ph="UPDATE parti... " />
+                <marker date="1502271762000" expanded="true" signature="1104:1226" ph="UPDATE parti... " />
+                <marker date="1502271762000" expanded="true" signature="1153:1171" ph="UPDATE `part... " />
+                <marker date="1502271762000" expanded="true" signature="1576:1595" ph="UPDATE parti... " />
+                <marker date="1502271762000" expanded="true" signature="1576:1596" ph="UPDATE parti... " />
+                <marker date="1502271762000" expanded="true" signature="1576:1643" ph="UPDATE `spie... " />
+                <marker date="1502271762000" expanded="true" signature="2050:2057" ph="UPDATE `part... " />
+                <marker date="1502271762000" expanded="true" signature="2050:2117" ph="UPDATE `part... " />
+                <marker date="1502271762000" expanded="true" signature="2525:2532" ph="UPDATE `part... " />
+                <marker date="1502271762000" expanded="true" signature="2525:2592" ph="UPDATE `part... " />
+                <marker date="1502271762000" expanded="true" signature="3000:3007" ph="UPDATE `part... " />
+                <marker date="1502271762000" expanded="true" signature="3000:3067" ph="UPDATE `part... " />
+                <marker date="1502271762000" expanded="true" signature="3475:3482" ph="UPDATE `part... " />
+                <marker date="1502271762000" expanded="true" signature="3475:3542" ph="UPDATE `part... " />
+                <marker date="1502271762000" expanded="true" signature="4215:4254" ph="SELECT * FRO... parties" />
+                <marker date="1502271762000" expanded="true" signature="4470:5489" ph="..." />
+                <marker date="1502271762000" expanded="true" signature="4487:5489" ph="..." />
+                <marker date="1502271762000" expanded="true" signature="4508:4627" ph="..." />
+                <marker date="1502271762000" expanded="true" signature="4648:4768" ph="..." />
+                <marker date="1502271762000" expanded="true" signature="4789:4908" ph="..." />
+                <marker date="1502271762000" expanded="true" signature="4929:5049" ph="..." />
+                <marker date="1502271762000" expanded="true" signature="5070:5189" ph="..." />
+                <marker date="1502271762000" expanded="true" signature="5210:5329" ph="..." />
+                <marker date="1502271762000" expanded="true" signature="5350:5471" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="accountmanagement.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/production/accountmanagement.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -116,11 +113,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="changes.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="changes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/production/logic/changes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="180">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding>
                 <marker date="1502282836000" expanded="true" signature="766:812" ph="UPDATE users... " />
                 <marker date="1502282836000" expanded="true" signature="1032:1082" ph="UPDATE users... " />
@@ -134,6 +131,16 @@
                 <marker date="1502282836000" expanded="true" signature="3622:3639" ph="UPDATE users... " />
                 <marker date="1502282836000" expanded="true" signature="3622:3679" ph="UPDATE users... " />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/production/js/functions.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="466">
+              <caret line="129" column="56" lean-forward="false" selection-start-line="129" selection-start-column="56" selection-end-line="129" selection-end-column="56" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -234,7 +241,6 @@
         <option value="$PROJECT_DIR$/production/logic/datenbankdump" />
         <option value="$PROJECT_DIR$/production/dump" />
         <option value="$PROJECT_DIR$/PHP/testing.php" />
-        <option value="$PROJECT_DIR$/production/js/functions.js" />
         <option value="$PROJECT_DIR$/production/css/styles.css" />
         <option value="$PROJECT_DIR$/production/index.php" />
         <option value="$PROJECT_DIR$/production/impressum.php" />
@@ -253,6 +259,7 @@
         <option value="$PROJECT_DIR$/production/logic/userdata.php" />
         <option value="$PROJECT_DIR$/production/accountmanagement.php" />
         <option value="$PROJECT_DIR$/production/logic/changes.php" />
+        <option value="$PROJECT_DIR$/production/js/functions.js" />
       </list>
     </option>
   </component>
@@ -304,6 +311,18 @@
               <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
               <item name="htdocs" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="production" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="htdocs" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="production" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="htdocs" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="production" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="logic" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -427,12 +446,12 @@
       <workItem from="1501535490465" duration="4057000" />
       <workItem from="1501572232966" duration="24124000" />
       <workItem from="1501603441534" duration="13601000" />
-      <workItem from="1501675755316" duration="154941000" />
+      <workItem from="1501675755316" duration="155418000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="198589000" />
+    <option name="totallyTimeSpent" value="199066000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -736,14 +755,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/production/js/functions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1139">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/production/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -786,53 +797,6 @@
             <marker date="1502271762000" expanded="true" signature="308:347" ph="SELECT * FRO... parties" />
             <marker date="1502271762000" expanded="true" signature="1031:1082" ph="UPDATE `spie... " />
             <marker date="1502271762000" expanded="true" signature="1286:1289" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/production/logic/gamelogic.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1862">
-          <caret line="130" column="29" lean-forward="false" selection-start-line="130" selection-start-column="29" selection-end-line="130" selection-end-column="29" />
-          <folding>
-            <marker date="1502271762000" expanded="true" signature="264:303" ph="SELECT * FRO... parties" />
-            <marker date="1502271762000" expanded="true" signature="1104:1122" ph="UPDATE parti... " />
-            <marker date="1502271762000" expanded="true" signature="1104:1123" ph="UPDATE parti... " />
-            <marker date="1502271762000" expanded="true" signature="1104:1171" ph="UPDATE `spie... " />
-            <marker date="1502271762000" expanded="true" signature="1104:1172" ph="UPDATE parti... " />
-            <marker date="1502271762000" expanded="true" signature="1104:1226" ph="UPDATE parti... " />
-            <marker date="1502271762000" expanded="true" signature="1153:1171" ph="UPDATE `part... " />
-            <marker date="1502271762000" expanded="true" signature="1576:1595" ph="UPDATE parti... " />
-            <marker date="1502271762000" expanded="true" signature="1576:1596" ph="UPDATE parti... " />
-            <marker date="1502271762000" expanded="true" signature="1576:1643" ph="UPDATE `spie... " />
-            <marker date="1502271762000" expanded="true" signature="2050:2057" ph="UPDATE `part... " />
-            <marker date="1502271762000" expanded="true" signature="2050:2117" ph="UPDATE `part... " />
-            <marker date="1502271762000" expanded="true" signature="2525:2532" ph="UPDATE `part... " />
-            <marker date="1502271762000" expanded="true" signature="2525:2592" ph="UPDATE `part... " />
-            <marker date="1502271762000" expanded="true" signature="3000:3007" ph="UPDATE `part... " />
-            <marker date="1502271762000" expanded="true" signature="3000:3067" ph="UPDATE `part... " />
-            <marker date="1502271762000" expanded="true" signature="3475:3482" ph="UPDATE `part... " />
-            <marker date="1502271762000" expanded="true" signature="3475:3542" ph="UPDATE `part... " />
-            <marker date="1502271762000" expanded="true" signature="4215:4254" ph="SELECT * FRO... parties" />
-            <marker date="1502271762000" expanded="true" signature="4470:5489" ph="..." />
-            <marker date="1502271762000" expanded="true" signature="4487:5489" ph="..." />
-            <marker date="1502271762000" expanded="true" signature="4508:4627" ph="..." />
-            <marker date="1502271762000" expanded="true" signature="4648:4768" ph="..." />
-            <marker date="1502271762000" expanded="true" signature="4789:4908" ph="..." />
-            <marker date="1502271762000" expanded="true" signature="4929:5049" ph="..." />
-            <marker date="1502271762000" expanded="true" signature="5070:5189" ph="..." />
-            <marker date="1502271762000" expanded="true" signature="5210:5329" ph="..." />
-            <marker date="1502271762000" expanded="true" signature="5350:5471" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/production/logic/createparty.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="64" lean-forward="false" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
-          <folding>
-            <marker date="1502271762000" expanded="true" signature="335:390" ph="INSERT INTO `parties`... " />
           </folding>
         </state>
       </provider>
@@ -895,14 +859,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/production/gametable.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="84" column="5" lean-forward="true" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/production/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -944,8 +900,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/production/logic/changes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
             <marker date="1502282836000" expanded="true" signature="766:812" ph="UPDATE users... " />
             <marker date="1502282836000" expanded="true" signature="1032:1082" ph="UPDATE users... " />
@@ -959,6 +915,69 @@
             <marker date="1502282836000" expanded="true" signature="3622:3639" ph="UPDATE users... " />
             <marker date="1502282836000" expanded="true" signature="3622:3679" ph="UPDATE users... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/production/logic/createparty.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="60" lean-forward="true" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
+          <folding>
+            <marker date="1502271762000" expanded="true" signature="335:390" ph="INSERT INTO `parties`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/production/gametable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="84" column="5" lean-forward="true" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/production/logic/gamelogic.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="623">
+          <caret line="130" column="25" lean-forward="true" selection-start-line="130" selection-start-column="25" selection-end-line="130" selection-end-column="25" />
+          <folding>
+            <marker date="1502271762000" expanded="true" signature="264:303" ph="SELECT * FRO... parties" />
+            <marker date="1502271762000" expanded="true" signature="1104:1122" ph="UPDATE parti... " />
+            <marker date="1502271762000" expanded="true" signature="1104:1123" ph="UPDATE parti... " />
+            <marker date="1502271762000" expanded="true" signature="1104:1171" ph="UPDATE `spie... " />
+            <marker date="1502271762000" expanded="true" signature="1104:1172" ph="UPDATE parti... " />
+            <marker date="1502271762000" expanded="true" signature="1104:1226" ph="UPDATE parti... " />
+            <marker date="1502271762000" expanded="true" signature="1153:1171" ph="UPDATE `part... " />
+            <marker date="1502271762000" expanded="true" signature="1576:1595" ph="UPDATE parti... " />
+            <marker date="1502271762000" expanded="true" signature="1576:1596" ph="UPDATE parti... " />
+            <marker date="1502271762000" expanded="true" signature="1576:1643" ph="UPDATE `spie... " />
+            <marker date="1502271762000" expanded="true" signature="2050:2057" ph="UPDATE `part... " />
+            <marker date="1502271762000" expanded="true" signature="2050:2117" ph="UPDATE `part... " />
+            <marker date="1502271762000" expanded="true" signature="2525:2532" ph="UPDATE `part... " />
+            <marker date="1502271762000" expanded="true" signature="2525:2592" ph="UPDATE `part... " />
+            <marker date="1502271762000" expanded="true" signature="3000:3007" ph="UPDATE `part... " />
+            <marker date="1502271762000" expanded="true" signature="3000:3067" ph="UPDATE `part... " />
+            <marker date="1502271762000" expanded="true" signature="3475:3482" ph="UPDATE `part... " />
+            <marker date="1502271762000" expanded="true" signature="3475:3542" ph="UPDATE `part... " />
+            <marker date="1502271762000" expanded="true" signature="4215:4254" ph="SELECT * FRO... parties" />
+            <marker date="1502271762000" expanded="true" signature="4470:5489" ph="..." />
+            <marker date="1502271762000" expanded="true" signature="4487:5489" ph="..." />
+            <marker date="1502271762000" expanded="true" signature="4508:4627" ph="..." />
+            <marker date="1502271762000" expanded="true" signature="4648:4768" ph="..." />
+            <marker date="1502271762000" expanded="true" signature="4789:4908" ph="..." />
+            <marker date="1502271762000" expanded="true" signature="4929:5049" ph="..." />
+            <marker date="1502271762000" expanded="true" signature="5070:5189" ph="..." />
+            <marker date="1502271762000" expanded="true" signature="5210:5329" ph="..." />
+            <marker date="1502271762000" expanded="true" signature="5350:5471" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/production/js/functions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="129" column="56" lean-forward="false" selection-start-line="129" selection-start-column="56" selection-end-line="129" selection-end-column="56" />
+          <folding />
         </state>
       </provider>
     </entry>

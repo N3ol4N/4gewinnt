@@ -1,3 +1,4 @@
+//function to print the list of parties
 function getpartyList() {
     var request = new XMLHttpRequest();
     var path = "logic/loadgamelist.php";
@@ -21,6 +22,7 @@ function getpartyList() {
     window.setTimeout("getpartyList()", 6000);
 }
 
+//function to join a party
 function joinparty(Spiel_ID) {
     var request = new XMLHttpRequest();
     var path = "logic/joinparty.php?gameID=" + Spiel_ID;
@@ -43,6 +45,7 @@ function joinparty(Spiel_ID) {
     request.send();
 }
 
+//function to create a party
 function createparty() {
     var request = new XMLHttpRequest();
     var path = "logic/createparty.php?createparty";
@@ -65,6 +68,7 @@ function createparty() {
     request.send();
 }
 
+//function to logout
 function logout() {
     var request = new XMLHttpRequest();
     var path = "logic/logout.php";
@@ -77,6 +81,7 @@ function logout() {
     document.location.href = "index.php";
 }
 
+//function to select a row to put a chip into
 function spalte(spalte) {
     var request = new XMLHttpRequest();
     var path = "logic/gamelogic.php?row=" + spalte;
@@ -92,12 +97,14 @@ function spalte(spalte) {
         if (request.readyState == 4 && request.status == 200) {
             var return_data = request.responseText;
             div.innerHTML = return_data;
+            getgame(colorset);
         }
     }
 
     request.send();
 }
 
+//function to print the current game
 function getgame(colorset) {
     var request = new XMLHttpRequest();
     var path = "logic/gamelogic.php?getgame=" + colorset;
@@ -120,7 +127,7 @@ function getgame(colorset) {
     window.setTimeout("getgame(colorset)", 6000);
 }
 
-
+//function to select a color scheme on your current game
 function setcolor(value) {
     colorset = value;
     getgame(colorset);
