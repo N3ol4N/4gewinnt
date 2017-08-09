@@ -144,18 +144,18 @@ if(isset($_GET['getgame'])){
         if(($i-1)%7 == 0){
             echo "</tr>";
         }
-        if($colorset == "normal"){
-            if($Partie[$i] == 0) {$type = "normal";}
+        if($colorset == "neutral"){
+            if($Partie[$i] == 0) {$type = "neutral";}
             if($Partie[$i] == $Partie['Spieler1']){$type= "spieler1";}
             if($Partie[$i] == $Partie['Spieler2']){$type= "spieler2";}
         }
         if($colorset == "redyellow"){
-            if($Partie[$i] == 0) {$type = "normal";}
+            if($Partie[$i] == 0) {$type = "neutral";}
             if($Partie[$i] == $Partie['Spieler1']){$type= "red";}
             if($Partie[$i] == $Partie['Spieler2']){$type= "yellow";}
         }
         if($colorset == "yellowred"){
-            if($Partie[$i] == 0) {$type = "normal";}
+            if($Partie[$i] == 0) {$type = "neutral";}
             if($Partie[$i] == $Partie['Spieler1']){$type= "yellow";}
             if($Partie[$i] == $Partie['Spieler2']){$type= "red";}
         }

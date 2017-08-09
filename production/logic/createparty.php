@@ -15,17 +15,16 @@ if (isset($_GET['createparty'])) {
     $anzahl_ebenen = 6;
 
     $Spieler1_ID = $username;
-    $Spieler2_ID = 0;
     $AmZug = $username;
 
     if ($my_db->connect_errno) {
         die("Fehler bei der Netzwerkverbindung" . $my_db->connect_errno);
     }
 
-    $db_Befehl = "INSERT INTO `parties`(`Spieler1`, `Spieler2`, `AmZug`) VALUES (?,?,?)";
+    $db_Befehl = "INSERT INTO `parties`(`Spieler1`, `AmZug`) VALUES (?,?)";
 
     $statement = $my_db->prepare($db_Befehl);
-    $statement->bind_param('sss', $Spieler1_ID, $Spieler2_ID, $AmZug);
+    $statement->bind_param('ss', $Spieler1_ID, $AmZug);
 
     $statement->execute();
 

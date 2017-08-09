@@ -11,7 +11,7 @@
     <script language="JavaScript" type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 
     <script language="JavaScript" type="text/javascript">
-        colorset = "normal";
+        colorset = "neutral";
     </script>
 </head>
 
