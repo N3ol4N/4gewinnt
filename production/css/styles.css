@@ -1,7 +1,7 @@
 #impressum {
     color: #028482;
-    margin-left: 10px;
     background-color: #7ABA7A;
+    padding-left: 3%;
 }
 
 .disclaimer {
@@ -24,6 +24,29 @@
     flex-direction: row;
     justify-content: space-between;
     background-color: #7ABA7A;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+#lobbyheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #7ABA7A;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+#gamelist {
+
+}
+
+#message {
+
+}
+
+#lobbycontent {
+    margin-left: 3%;
 }
 
 #gamerelevantcontent {

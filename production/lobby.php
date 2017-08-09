@@ -23,24 +23,31 @@
     if (!isset($_SESSION['userid'])) {
         die('<a href="index.php">Please log in first</a>');
     }
-
-    //greetings to user
-    $user = $_SESSION['username'];
-    echo "Hallo " . $user . "! ";
     ?>
-    <div id="Optionen">
-        <button onclick="logout()">Logout</button>
-        <a href="accountmanagement.php">Accountmanagement</a>
+    <div id="lobbyheader">
+        <?php
+        //greetings to user
+        $user = $_SESSION['username'];
+        echo "Hallo " . $user . "! ";
+
+        ?>
+        <div id="Optionen">
+            <button onclick="logout()">Logout</button>
+            <form action="accountmanagement.php">
+                <input type="submit" value="Accountmanagement">
+            </form>
+        </div>
     </div>
 </div>
 
 <br>
-<?php
-//checks for a valid gameid
-if (isset($_SESSION['SpielId']))
-    echo '<a href="gametable.php">active game</a>'
-?>
-<br>
+<div id="lobbycontent">
+    <?php
+    //checks for a valid gameid
+    if (isset($_SESSION['SpielId']))
+        echo '<a href="gametable.php">active game</a>'
+    ?>
+    <br>
 
     <div id="gamelist">
 
@@ -55,6 +62,7 @@ if (isset($_SESSION['SpielId']))
     <div>
         <button onclick="createparty()">Create new game</button>
     </div>
+</div>
 
 <?php
 //load impressum for contact
