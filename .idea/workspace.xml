@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a5c526d-6b05-4a12-ad6c-e85772e004af" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/gametable.php" afterPath="$PROJECT_DIR$/production/gametable.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/lobby.php" afterPath="$PROJECT_DIR$/production/lobby.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/logic/gamelogic.php" afterPath="$PROJECT_DIR$/production/logic/gamelogic.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/readme.txt" afterPath="$PROJECT_DIR$/production/readme.txt" />
     </list>
     <ignored path="htdocs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,151 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="accountmanagement.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/production/accountmanagement.php">
+      <file leaf-file-name="readme.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/production/readme.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-              <folding>
-                <element signature="n#style#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="changes.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/production/logic/changes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
-              <caret line="93" column="38" lean-forward="true" selection-start-line="93" selection-start-column="38" selection-end-line="93" selection-end-column="38" />
-              <folding>
-                <marker date="1502282836000" expanded="true" signature="766:812" ph="UPDATE users... " />
-                <marker date="1502282836000" expanded="true" signature="1032:1082" ph="UPDATE users... " />
-                <marker date="1502282836000" expanded="true" signature="1300:1350" ph="UPDATE users... " />
-                <marker date="1502282836000" expanded="true" signature="1577:1633" ph="UPDATE users... " />
-                <marker date="1502282836000" expanded="true" signature="1908:1962" ph="UPDATE users... " />
-                <marker date="1502282836000" expanded="true" signature="3226:3303" ph="INSERT INTO `avatars`... " />
-                <marker date="1502282836000" expanded="true" signature="3226:3309" ph="INSERT INTO `avatars`... " />
-                <marker date="1502282836000" expanded="true" signature="3622:3633" ph="UPDATE users... " />
-                <marker date="1502282836000" expanded="true" signature="3622:3634" ph="UPDATE users... " />
-                <marker date="1502282836000" expanded="true" signature="3622:3639" ph="UPDATE users... " />
-                <marker date="1502282836000" expanded="true" signature="3622:3679" ph="UPDATE users... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lobby.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/production/lobby.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="44" lean-forward="false" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gamelogic.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/production/logic/gamelogic.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding>
-                <marker date="1502295240000" expanded="true" signature="264:303" ph="SELECT * FRO... parties" />
-                <marker date="1502295240000" expanded="true" signature="1104:1171" ph="UPDATE parti... " />
-                <marker date="1502295240000" expanded="true" signature="1495:1562" ph="UPDATE parti... " />
-                <marker date="1502295240000" expanded="true" signature="1889:1956" ph="UPDATE parti... " />
-                <marker date="1502295240000" expanded="true" signature="2283:2350" ph="UPDATE parti... " />
-                <marker date="1502295240000" expanded="true" signature="2677:2744" ph="UPDATE parti... " />
-                <marker date="1502295240000" expanded="true" signature="3071:3138" ph="UPDATE parti... " />
-                <marker date="1502295240000" expanded="true" signature="3725:3764" ph="SELECT * FRO... parties" />
-                <marker date="1502295240000" expanded="true" signature="5213:6207" ph="..." />
-                <marker date="1502295240000" expanded="true" signature="5213:6520" ph="..." />
-                <marker date="1502295240000" expanded="true" signature="5230:6207" ph="..." />
-                <marker date="1502295240000" expanded="true" signature="5251:5367" ph="..." />
-                <marker date="1502295240000" expanded="true" signature="5388:5504" ph="..." />
-                <marker date="1502295240000" expanded="true" signature="5525:5641" ph="..." />
-                <marker date="1502295240000" expanded="true" signature="5662:5778" ph="..." />
-                <marker date="1502295240000" expanded="true" signature="5799:5915" ph="..." />
-                <marker date="1502295240000" expanded="true" signature="5936:6052" ph="..." />
-                <marker date="1502295240000" expanded="true" signature="6073:6189" ph="..." />
-                <marker date="1502295240000" expanded="true" signature="6224:6345" ph="..." />
-                <marker date="1502295240000" expanded="true" signature="8135:8203" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="loadgamelist.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/production/logic/loadgamelist.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="27" />
-              <folding>
-                <marker date="1502271762000" expanded="true" signature="126:147" ph="SELECT * FRO... parties" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="functions.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/production/js/functions.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1231">
-              <caret line="97" column="47" lean-forward="false" selection-start-line="97" selection-start-column="47" selection-end-line="97" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="joinparty.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/production/logic/joinparty.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding>
-                <marker date="1502295183000" expanded="true" signature="308:347" ph="SELECT * FRO... parties" />
-                <marker date="1502295183000" expanded="true" signature="1031:1082" ph="UPDATE `spie... " />
-                <marker date="1502295183000" expanded="true" signature="1286:1289" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gametable.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/production/gametable.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-              <folding>
-                <marker date="1502295280000" expanded="true" signature="2497:2499" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="userdata.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/production/logic/userdata.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="29" column="40" lean-forward="false" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="40" />
-              <folding>
-                <marker date="1502281808000" expanded="true" signature="396:428" ph="SELECT * FRO... users" />
-                <marker date="1502281808000" expanded="true" signature="675:713" ph="SELECT * FRO... avatars" />
-                <marker date="1502281808000" expanded="true" signature="675:714" ph="SELECT * FRO... avatars" />
-                <marker date="1502281808000" expanded="true" signature="675:719" ph="SELECT * FRO... avatars" />
-                <marker date="1502281808000" expanded="true" signature="675:740" ph="SELECT * FRO... avatars" />
-                <marker date="1502281808000" expanded="true" signature="918:957" ph="data:" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/production/css/styles.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="76" column="21" lean-forward="false" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
+            <state relative-caret-position="420">
+              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -204,8 +61,8 @@
       <find>$type</find>
       <find>gamecontent</find>
       <find>palim</find>
-      <find>ava</find>
       <find>active game</find>
+      <find>ava</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -247,7 +104,6 @@
         <option value="$PROJECT_DIR$/production/datenbank.php" />
         <option value="$PROJECT_DIR$/sonntagssession/registration.php" />
         <option value="$PROJECT_DIR$/PHP/createpartie.php" />
-        <option value="$PROJECT_DIR$/production/readme.txt" />
         <option value="$PROJECT_DIR$/production/logic/datenbankdump" />
         <option value="$PROJECT_DIR$/production/dump" />
         <option value="$PROJECT_DIR$/PHP/testing.php" />
@@ -270,6 +126,7 @@
         <option value="$PROJECT_DIR$/production/logic/joinparty.php" />
         <option value="$PROJECT_DIR$/production/logic/gamelogic.php" />
         <option value="$PROJECT_DIR$/production/gametable.php" />
+        <option value="$PROJECT_DIR$/production/readme.txt" />
       </list>
     </option>
   </component>
@@ -321,18 +178,6 @@
               <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
               <item name="htdocs" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="production" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="htdocs" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="production" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="htdocs" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="production" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="logic" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -456,12 +301,12 @@
       <workItem from="1501535490465" duration="4057000" />
       <workItem from="1501572232966" duration="24124000" />
       <workItem from="1501603441534" duration="13601000" />
-      <workItem from="1501675755316" duration="166477000" />
+      <workItem from="1501675755316" duration="167348000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="210125000" />
+    <option name="totallyTimeSpent" value="210996000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -765,14 +610,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/production/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/production/impressum.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -857,29 +694,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/production/logic/userdata.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="29" column="40" lean-forward="false" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="40" />
-          <folding>
-            <marker date="1502281808000" expanded="true" signature="396:428" ph="SELECT * FRO... users" />
-            <marker date="1502281808000" expanded="true" signature="675:713" ph="SELECT * FRO... avatars" />
-            <marker date="1502281808000" expanded="true" signature="675:714" ph="SELECT * FRO... avatars" />
-            <marker date="1502281808000" expanded="true" signature="675:719" ph="SELECT * FRO... avatars" />
-            <marker date="1502281808000" expanded="true" signature="675:740" ph="SELECT * FRO... avatars" />
-            <marker date="1502281808000" expanded="true" signature="918:957" ph="data:" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/production/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="76" column="21" lean-forward="false" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/production/accountmanagement.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -906,36 +720,6 @@
             <marker date="1502282836000" expanded="true" signature="3622:3634" ph="UPDATE users... " />
             <marker date="1502282836000" expanded="true" signature="3622:3639" ph="UPDATE users... " />
             <marker date="1502282836000" expanded="true" signature="3622:3679" ph="UPDATE users... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/production/js/functions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1231">
-          <caret line="97" column="47" lean-forward="false" selection-start-line="97" selection-start-column="47" selection-end-line="97" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/production/logic/loadgamelist.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="27" />
-          <folding>
-            <marker date="1502271762000" expanded="true" signature="126:147" ph="SELECT * FRO... parties" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/production/logic/joinparty.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <marker date="1502295183000" expanded="true" signature="308:347" ph="SELECT * FRO... parties" />
-            <marker date="1502295183000" expanded="true" signature="1031:1082" ph="UPDATE `spie... " />
-            <marker date="1502295183000" expanded="true" signature="1286:1289" ph="..." />
           </folding>
         </state>
       </provider>
@@ -977,13 +761,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/production/logic/loadgamelist.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="27" />
+          <folding>
+            <marker date="1502271762000" expanded="true" signature="126:147" ph="SELECT * FRO... parties" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/production/js/functions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1231">
+          <caret line="97" column="47" lean-forward="false" selection-start-line="97" selection-start-column="47" selection-end-line="97" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/production/logic/joinparty.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <marker date="1502295183000" expanded="true" signature="308:347" ph="SELECT * FRO... parties" />
+            <marker date="1502295183000" expanded="true" signature="1031:1082" ph="UPDATE `spie... " />
+            <marker date="1502295183000" expanded="true" signature="1286:1289" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/production/gametable.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        <state relative-caret-position="507">
+          <caret line="84" column="13" lean-forward="true" selection-start-line="84" selection-start-column="13" selection-end-line="84" selection-end-column="13" />
           <folding>
             <marker date="1502295280000" expanded="true" signature="2497:2499" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/production/logic/userdata.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="29" column="40" lean-forward="false" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="40" />
+          <folding>
+            <marker date="1502281808000" expanded="true" signature="396:428" ph="SELECT * FRO... users" />
+            <marker date="1502281808000" expanded="true" signature="675:713" ph="SELECT * FRO... avatars" />
+            <marker date="1502281808000" expanded="true" signature="675:714" ph="SELECT * FRO... avatars" />
+            <marker date="1502281808000" expanded="true" signature="675:719" ph="SELECT * FRO... avatars" />
+            <marker date="1502281808000" expanded="true" signature="675:740" ph="SELECT * FRO... avatars" />
+            <marker date="1502281808000" expanded="true" signature="918:957" ph="data:" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/production/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="76" column="21" lean-forward="false" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/production/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
