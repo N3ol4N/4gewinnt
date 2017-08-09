@@ -13,6 +13,8 @@
 
 <body onload="mail();">
 
+<div class="container">
+
 <div>
     <?php
     session_start();
@@ -40,7 +42,6 @@ if (isset($_SESSION['SpielId']))
 ?>
 <br>
 
-<div class="container">
     <div id="gamelist">
 
     </div>
@@ -54,11 +55,12 @@ if (isset($_SESSION['SpielId']))
     <div>
         <button onclick="createparty()">Create new game</button>
     </div>
-</div>
 
 <?php
 //load impressum for contact
 require("impressum.php");
 ?>
+</div>
+
 </body>
 </html>

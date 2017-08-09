@@ -105,9 +105,10 @@ if (isset($_GET['getgame'])) {
     $_SESSION['spieler1nick'] = $Partie['Spieler1'];
     $_SESSION['spieler2nick'] = $Partie['Spieler2'];
 
+    echo '<div id="gamecontent">';
     echo '<div id="gamematchup">';
     if ($colorset == "neutral") {
-        echo '<div class="spielernamen">'.$_SESSION['spieler1nick'].'</div> VS <div class="spielernamen">'.$_SESSION['spieler2nick'].'</div>';
+        echo '<div class="spielernamen">'.$_SESSION['spieler1nick'].'</div> <div> VS </div> <div class="spielernamen">'.$_SESSION['spieler2nick'].'</div>';
     }
     if ($colorset == "redyellow") {
         echo '<div class="spielernamen red">'.$_SESSION['spieler1nick'].'</div> VS <div class="spielernamen yellow">'.$_SESSION['spieler2nick'].'</div>';
@@ -121,33 +122,33 @@ if (isset($_GET['getgame'])) {
     if ($colorset == "whiteblack") {
         echo '<div class="spielernamen white">'.$_SESSION['spieler1nick'].'</div> VS <div class="spielernamen black">'.$_SESSION['spieler2nick'].'</div>';
     }
-
-    echo "<div>";
-
+    echo "</div>";
     echo "<br>";
+
+    echo '<div id="playground">';
 
     echo "<table>
             <tr>
                 <th>
-                    <button type=\"button\" onclick=\"spalte(1)\">Insert into first row</button>
+                    <button type=\"button\" onclick=\"spalte(1)\">Insert in this row</button>
                 </th>
                 <th>
-                    <button type=\"button\" onclick=\"spalte(2)\">Insert into second row</button>
+                    <button type=\"button\" onclick=\"spalte(2)\">Insert in this row</button>
                 </th>
                 <th>
-                    <button type=\"button\" onclick=\"spalte(3)\">Insert into third row</button>
+                    <button type=\"button\" onclick=\"spalte(3)\">Insert in this row</button>
                 </th>
                 <th>
-                    <button type=\"button\" onclick=\"spalte(4)\">Insert into fourth row</button>
+                    <button type=\"button\" onclick=\"spalte(4)\">Insert in this row</button>
                 </th>
                 <th>
-                    <button type=\"button\" onclick=\"spalte(5)\">Insert into fifth row</button>
+                    <button type=\"button\" onclick=\"spalte(5)\">Insert in this row</button>
                 </th>
                 <th>
-                    <button type=\"button\" onclick=\"spalte(6)\">Insert into sixth row</button>
+                    <button type=\"button\" onclick=\"spalte(6)\">Insert in this row</button>
                 </th>
                 <th>
-                    <button type=\"button\" onclick=\"spalte(7)\">Insert into seventh row</button>
+                    <button type=\"button\" onclick=\"spalte(7)\">Insert in this row</button>
                 </th>
             </tr>";
     echo "<tr>";
@@ -214,10 +215,12 @@ if (isset($_GET['getgame'])) {
         }
 
 
-        echo ' <td><div id = "' . $i . '"class="' . $type . '">' . $Partie[$i] . '</div></td>';
+        echo ' <td id = "' . $i . '"class="' . $type . '"></td>';
     }
     echo "<tr>";
     echo "</table>";
+    echo "</div>";
+    echo "</div>";
 }
 
 ?>

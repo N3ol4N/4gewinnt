@@ -18,74 +18,71 @@
 
 <body onload="mail();">
 
-<div>
-    <div id="Optionen">
-        <button onclick="logout()">Logout</button>
-        <form action="accountmanagement.php">
-            <input type="submit" value="Accountmanagement">
-        </form>
-        <form action="lobby.php">
-            <input type="submit" value="Back to lobby">
-        </form>
-    </div>
+<div class="container">
+    <div id="gameheader">
+        <div id="playergreeting">
+            <?php
+                session_start();
 
-    <div id="playergreeting">
-        <?php
-            session_start();
+                //checks for valid userid
+                if (!isset($_SESSION['userid'])) {
+                    die('<a href="index.php">Please log in first</a>');
+                }
 
-            //checks for valid userid
-            if (!isset($_SESSION['userid'])) {
-                die('<a href="index.php">Please log in first</a>');
-            }
+                //information
+                $user = $_SESSION['username'];
+                $gameid = $_SESSION['SpielId'];
+                echo "Hallo " . $user . "! ";
+                echo "<br>";
+                echo "gameid: " . $gameid;
+            ?>
+        </div>
+        <br>
 
-            //information
-            $user = $_SESSION['username'];
-            $gameid = $_SESSION['SpielId'];
-            echo "Hallo " . $user . "! ";
-            echo "<br>";
-            echo "gameid: " . $gameid;
-        ?>
+        <div id="Optionen">
+            <button onclick="logout()">Logout</button>
+            <form action="accountmanagement.php">
+                <input type="submit" value="Accountmanagement">
+            </form>
+            <form action="lobby.php">
+                <input type="submit" value="Back to lobby">
+            </form>
+        </div>
     </div>
     <br>
+    <div id="gamerelevantcontent">
 
     <!-- selection field for gametable colors -->
-    <div id="colorchanges">
-        <form>
-            <label>colours:</label><br>
-            <input type="radio" checked="checked" name="tablecolors" value="redyellow" onclick="setcolor(this.value)">
-            Red/Yellow<br>
-            <input type="radio" name="tablecolors" value="yellowred" onclick="setcolor(this.value)"> Yellow/Red<br>
-            <input type="radio" name="tablecolors" value="blackwhite" onclick="setcolor(this.value)"> Black/White<br>
-            <input type="radio" name="tablecolors" value="whiteblack" onclick="setcolor(this.value)"> White/Black<br>
-        </form>
+        <div id="colorchanges">
+            <form>
+                <label>colours:</label><br>
+                <input type="radio" name="tablecolors" checked="checked" value="redyellow" onclick="setcolor(this.value)">
+                Red/Yellow<br>
+                <input type="radio" name="tablecolors" value="yellowred" onclick="setcolor(this.value)"> Yellow/Red<br>
+                <input type="radio" name="tablecolors" value="blackwhite" onclick="setcolor(this.value)"> Black/White<br>
+                <input type="radio" name="tablecolors" value="whiteblack" onclick="setcolor(this.value)"> White/Black<br>
+            </form>
+        </div>
+        <br>
+        <div id="gamecontainer">
+
+        </div>
+    </div>
+    <div id="message">
+
     </div>
 
+    <br>
+
+    <script language="javascript">
+        //load the gametable into view
+        getgame(colorset);
+    </script>
+
+    <?php
+    //contact info
+    require("impressum.php");
+    ?>
 </div>
-
-<br>
-<div id="matchup">
-
-</div>
-<div class="container" id="gamecontainer">
-
-</div>
-
-
-<br>
-
-<br>
-<div id="message">
-
-</div>
-
-<script language="javascript">
-    //load the gametable into view
-    getgame(colorset);
-</script>
-
-<?php
-//contact info
-require("impressum.php");
-?>
 </body>
 </html>

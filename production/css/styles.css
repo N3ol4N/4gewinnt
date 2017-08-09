@@ -19,6 +19,36 @@
     margin-bottom: 4%;
 }
 
+#gameheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #7ABA7A;
+}
+
+#gamerelevantcontent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#gamematchup {
+    text-align: center;
+}
+
+#gamecontainer {
+    display: flex;
+    justify-content: center;
+}
+
+#gamecontainer td {
+    border: solid ;
+    border-color: blue;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+}
+
 .spieler1 {
     background-color: red;
 }
