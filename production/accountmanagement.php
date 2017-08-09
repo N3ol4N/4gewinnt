@@ -12,22 +12,26 @@
 
 </head>
 <body>
-
+<div class="container">
 <?php
 //checks for changes in formular and hides formular if necessary
 require('logic/changes.php');
 if ($showFormular = true) {
     ?>
-
+    <form action="lobby.php" style="text-align: right; padding-right: 3%">
+        <input type="submit" value="back to lobby">
+    </form>
     <div id="changes">
         <div id="datachanges">
+            <p>Enter your Accountchanges below :</p>
             <form action="logic/changes.php?change=1" method="post">
-                new Email : <input type="email" size="40" maxlength="250" name="changedmail"><br>
-                new Nickname : <input type="text" size="40" maxlength="250" name="changednick"><br>
-                change Name : <input type="text" size="40" maxlength="250" name="changedname"><br>
-                change Age : <input type="text" size="40" maxlength="250" name="changedalter"><br>
+                new Email : <input type="email" size="40" maxlength="250" name="changedmail" class="form-control"><br>
+                new Nickname : <input type="text" size="40" maxlength="250" name="changednick" class="form-control"><br>
+                change Name : <input type="text" size="40" maxlength="250" name="changedname" class="form-control"><br>
+                change Age : <input type="text" size="40" maxlength="250" name="changedalter" class="form-control"><br>
                 <br>
                 <label>change Gender:</label>
+                <br>
                 <input type="radio" checked="checked" name="changedgender" value="female"> female<br>
                 <input type="radio" name="changedgender" value="male"> male<br>
                 <input type="radio" name="changedgender" value="apache helicopter">Apache Helicopter<br>
@@ -38,7 +42,7 @@ if ($showFormular = true) {
         <br>
         <div id="avatarchanges">
             <form action="logic/changes.php?changeavatar=1" method="post" enctype='multipart/form-data'>
-                Change Avatar : <input type="file" size="50" name="changedavatar">
+                Change your Avatar : <input type="file" size="50" name="changedavatar">
                 <input type="submit" value="Change Avatar">
             </form>
         </div>
@@ -49,9 +53,8 @@ if ($showFormular = true) {
 ?>
 
 <br><br>
-<form action="lobby.php">
-    <input type="submit" value="zur Lobby">
-</form>
 
+
+</div>
 </body>
 </html>

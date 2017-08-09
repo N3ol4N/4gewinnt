@@ -72,6 +72,17 @@
     height: 100px;
 }
 
+#userdatacontainer {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #7ABA7A;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
 .spieler1 {
     background-color: red;
 }
@@ -106,7 +117,6 @@
 
 #avatar img {
     height: 100%;
-    width: 100%;
     object-fit: contain;
 }
 
