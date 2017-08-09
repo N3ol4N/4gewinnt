@@ -31,7 +31,7 @@ if(isset($_GET['gameID'])){
         $statement->bind_param('si', $username, $gameid);
         $statement->execute();
 
-        echo "<br><br>You have been added to this game<br>";
+        echo "<br><br>You have been added to game $gameid<br>";
         $_SESSION['SpielId'] = $Partie['SpielID'];
     }
 }

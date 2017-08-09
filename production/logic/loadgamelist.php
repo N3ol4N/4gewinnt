@@ -30,7 +30,7 @@ while ($row = $result->fetch_assoc()) {
     echo "&nbsp;&nbsp;&nbsp| Am Zug : ";
     echo $row['AmZug'];
     echo "&nbsp;&nbsp;&nbsp";
-    echo '<button onclick="joinparty('.$row['SpielID'].')">join game</button>';
+    echo '<button onclick="joinparty('.$row['SpielID'].')" >join game</button>';
 }
 
 ?>

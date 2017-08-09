@@ -38,11 +38,10 @@ function joinparty(Spiel_ID)
             var return_data = request.responseText;
             div.innerHTML = return_data;
             getpartyList();
+            //document.location.href= "gametable.php";
         }
     }
-
     request.send();
-
 }
 
 function createparty()
@@ -62,9 +61,9 @@ function createparty()
             var return_data = request.responseText;
             div.innerHTML = return_data;
             getpartyList();
+            document.location.href= "gametable.php";
         }
     }
-
     request.send();
 }
 
@@ -131,39 +130,5 @@ function setcolor(value)
 {
     colorset=value;
     getgame(colorset);
-/*
-    var request = new XMLHttpRequest();
-    var path = "logic/gamelogic.php?getgame=value";
-    var div = document.getElementById("gamecontainer");
 
-    request.open("GET", path, true);
-    request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-
-    var return_data = request.responseText;
-    div.innerHTML = return_data;
-
-    request.onreadystatechange = function() {
-        if (request.readyState == 4 && request.status == 200) {
-            var return_data = request.responseText;
-            div.innerHTML = return_data;
-        }
-    }
-
-
-
-    console.log(value);
-    if(value == "redyellow"){
-        var div = document.getElementsByClassName("spieler1");
-        div[0].classList.toggle("red");
-        var div = document.getElementsByClassName("spieler2");
-        div[0].classList.toggle("yellow");
-    }
-    if(value == "yellowred"){
-        var div = document.getElementsByClassName('spieler1');
-        console.log(div[0]);
-        div[0].classList.toggle("yellow");
-        var div = document.getElementsByClassName("spieler2");
-        div[0].classList.toggle("red");
-    }
-    */
 }

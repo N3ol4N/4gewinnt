@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Connect Four Lobby</title>
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
 
     <script language="javascript" type="text/javascript" src="js/functions.js"></script>
@@ -39,8 +39,12 @@
 </div>
 
 <br>
-<a href="gametable.php">active game</a>
+<?php
+if(isset($_SESSION['SpielId']))
+echo '<a href="gametable.php">active game</a>'
+?>
 <br>
+
 <div class="container">
     <div id="gamelist">
 
