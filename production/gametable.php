@@ -19,6 +19,11 @@
 <body onload="mail();">
 
 <div class="container">
+    <?php
+        if(!isset($_SESSION['SpielId'])) {
+        die('first create a game in the &nbsp<a href="lobby.php">lobby</a>');
+        }
+    ?>
     <div id="gameheader">
         <div id="playergreeting">
             <?php
@@ -29,7 +34,7 @@
                     die('<a href="index.php">Please log in first</a>');
                 }
 
-                //information
+            //information
                 $user = $_SESSION['username'];
                 $gameid = $_SESSION['SpielId'];
                 echo "Hallo " . $user . "! ";

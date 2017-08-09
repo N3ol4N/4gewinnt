@@ -42,12 +42,9 @@
 
 <br>
 <div id="lobbycontent">
-    <?php
-    //checks for a valid gameid
-    if (isset($_SESSION['SpielId']))
-        echo '<a href="gametable.php">active game</a>'
-    ?>
-    <br>
+    <form action="gametable.php">
+        <input type="submit" value="active game">
+    </form>
 
     <div id="gamelist">
 

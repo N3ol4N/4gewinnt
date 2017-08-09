@@ -42,42 +42,36 @@ if (isset($_GET['row'])) {
             $statement = $my_db->prepare($db_Befehl);
             $statement->bind_param('ssi', $Spieler_ID, $NeuerZug, $Spiel_ID);
             $statement->execute();
-            echo "chip is set in 1st row, field :" . $spalte . ", enemies turn";
         } else if ($Partie[$spalte + 7] != $Spieler1 && $Partie[$spalte + 7] != $Spieler2) {
             $spalte = $spalte + 7;
             $db_Befehl = "UPDATE parties SET `" . $spalte . "`=?, AmZug = ? WHERE SpielID = ?";
             $statement = $my_db->prepare($db_Befehl);
             $statement->bind_param('ssi', $Spieler_ID, $NeuerZug, $Spiel_ID);
             $statement->execute();
-            echo "chip is set in 2n row, field :" . $spalte . ", enemies turn";
         } else if ($Partie[$spalte + 14] != $Spieler1 && $Partie[$spalte + 14] != $Spieler2) {
             $spalte = $spalte + 14;
             $db_Befehl = "UPDATE parties SET `" . $spalte . "`=?, AmZug = ? WHERE SpielID = ?";
             $statement = $my_db->prepare($db_Befehl);
             $statement->bind_param('ssi', $Spieler_ID, $NeuerZug, $Spiel_ID);
             $statement->execute();
-            echo "chip is set in 3rd row, field :" . $spalte . ", enemies turn";
         } else if ($Partie[$spalte + 21] != $Spieler1 && $Partie[$spalte + 21] != $Spieler2) {
             $spalte = $spalte + 21;
             $db_Befehl = "UPDATE parties SET `" . $spalte . "`=?, AmZug = ? WHERE SpielID = ?";
             $statement = $my_db->prepare($db_Befehl);
             $statement->bind_param('ssi', $Spieler_ID, $NeuerZug, $Spiel_ID);
             $statement->execute();
-            echo "chip is set in 4th row, field :" . $spalte . ", enemies turn";
         } else if ($Partie[$spalte + 28] != $Spieler1 && $Partie[$spalte + 28] != $Spieler2) {
             $spalte = $spalte + 28;
             $db_Befehl = "UPDATE parties SET `" . $spalte . "`=?, AmZug = ? WHERE SpielID = ?";
             $statement = $my_db->prepare($db_Befehl);
             $statement->bind_param('ssi', $Spieler_ID, $NeuerZug, $Spiel_ID);
             $statement->execute();
-            echo "chip is set in 5th row, field :" . $spalte . ", enemies turn";
         } else if ($Partie[$spalte + 35] != $Spieler1 && $Partie[$spalte + 35] != $Spieler2) {
             $spalte = $spalte + 35;
             $db_Befehl = "UPDATE parties SET `" . $spalte . "`=?, AmZug = ? WHERE SpielID = ?";
             $statement = $my_db->prepare($db_Befehl);
             $statement->bind_param('ssi', $Spieler_ID, $NeuerZug, $Spiel_ID);
             $statement->execute();
-            echo "your chip is set in 6th row, field :" . $spalte . ", enemies turn";
         } else {
             echo "this row is full, select another row";
         }
