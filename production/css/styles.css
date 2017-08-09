@@ -1,0 +1,55 @@
+#impressum {
+    color: #028482;
+    margin-left: 10px;
+    background-color: #7ABA7A;
+}
+
+.disclaimer {
+    font-size: medium;
+    background-color: #7ABA7A;
+    color: #B76EB8;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 100px;
+    vertical-align: middle;
+}
+
+#registrierungscontainer {
+    margin-bottom: 4%;
+}
+
+.spieler1 {
+    background-color: green;
+}
+
+.spieler2 {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.red{
+    background-color: red;
+}
+
+.neutral {
+    background-color: white;
+}
+
+#avatar {
+    height: 100px;
+}
+
+#avatar img {
+    height:100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+#userdatacontainer {
+    display: flex;
+    flex-direction: row;
+}
