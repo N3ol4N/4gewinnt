@@ -1,62 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a5c526d-6b05-4a12-ad6c-e85772e004af" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/production/accountmanagement.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/production/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/production/css/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/production/gametable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/production/impressum.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/production/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/production/js/functions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/production/js/jquery-3.2.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/production/lobby.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/production/logic/authenticate.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/production/logic/changes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/production/logic/createparty.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/production/logic/datenbank.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/production/logic/gamelogic.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/production/logic/joinparty.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/production/logic/loadgamelist.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/production/logic/login.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/production/logic/logout.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/production/logic/registration.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/production/logic/userdata.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/production/readme.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/production/registrierung.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/Index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/lobby.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/spielfeld.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PHP/authentifizieren.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PHP/changes.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PHP/createpartie.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PHP/gamelogik.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PHP/internerbereich.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PHP/lobby.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PHP/login.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PHP/logout.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PHP/partiebeitreten.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PHP/registrieren.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PHP/version.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/andi/Userverwaltung.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/andi/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/andi/lobby.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/andi/php/db.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/andi/php/login.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/andi/php/logout.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/andi/php/register.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/andi/register.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/andi/spiel.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/stylesheet.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/spielscripte.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/readme.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="0a5c526d-6b05-4a12-ad6c-e85772e004af" name="Default" comment="" />
     <ignored path="htdocs.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -97,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gamelogic.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gamelogic.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/production/logic/gamelogic.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="42" column="25" lean-forward="false" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+            <state relative-caret-position="525">
+              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding>
                 <marker date="1502208799000" expanded="true" signature="284:323" ph="SELECT * FRO... parties" />
                 <marker date="1502208799000" expanded="true" signature="737:783" ph="SELECT * FRO... playgrounds" />
@@ -133,6 +78,16 @@
                 <marker date="1502208799000" expanded="true" signature="5302:5413" ph="..." />
                 <marker date="1502208799000" expanded="true" signature="5430:5543" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="databases.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/production/databases.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -287,6 +242,24 @@
               <item name="htdocs" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="production" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="htdocs" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="production" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="htdocs" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="production" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="htdocs" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="production" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="logic" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -409,12 +382,12 @@
       <workItem from="1501535490465" duration="4057000" />
       <workItem from="1501572232966" duration="24124000" />
       <workItem from="1501603441534" duration="13601000" />
-      <workItem from="1501675755316" duration="140480000" />
+      <workItem from="1501675755316" duration="140770000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="184128000" />
+    <option name="totallyTimeSpent" value="184418000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -427,13 +400,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="23" width="1262" height="773" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17377049" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17377049" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890856" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890856" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32890856" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890856" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890856" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -469,14 +443,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PHP/lobby.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="87" column="5" lean-forward="true" selection-start-line="61" selection-start-column="4" selection-end-line="87" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PHP/partiebeitreten.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -905,8 +871,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/production/logic/gamelogic.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="42" column="25" lean-forward="false" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+        <state relative-caret-position="525">
+          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding>
             <marker date="1502208799000" expanded="true" signature="284:323" ph="SELECT * FRO... parties" />
             <marker date="1502208799000" expanded="true" signature="737:783" ph="SELECT * FRO... playgrounds" />
@@ -938,6 +904,14 @@
             <marker date="1502208799000" expanded="true" signature="5302:5413" ph="..." />
             <marker date="1502208799000" expanded="true" signature="5430:5543" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/production/databases.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
