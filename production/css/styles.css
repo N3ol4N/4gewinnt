@@ -35,6 +35,14 @@
     background-color: red;
 }
 
+.black {
+    background-color: darkgray;
+}
+
+.white {
+    background-color: lightgray;
+}
+
 .neutral {
     background-color: white;
 }

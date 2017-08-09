@@ -105,21 +105,24 @@ if (isset($_GET['getgame'])) {
     $_SESSION['spieler1nick'] = $Partie['Spieler1'];
     $_SESSION['spieler2nick'] = $Partie['Spieler2'];
 
+    echo '<div id="gamematchup">';
     if ($colorset == "neutral") {
-        echo '<div class="spielernamen">'.$_SESSION['spieler1nick'].'</div>';
-        echo " VS ";
-        echo '<div class="spielernamen">'.$_SESSION['spieler2nick'].'</div>';
+        echo '<div class="spielernamen">'.$_SESSION['spieler1nick'].'</div> VS <div class="spielernamen">'.$_SESSION['spieler2nick'].'</div>';
     }
     if ($colorset == "redyellow") {
-        echo '<div class="spielernamen red">'.$_SESSION['spieler1nick'].'</div>';
-        echo " VS ";
-        echo '<div class="spielernamen yellow">'.$_SESSION['spieler2nick'].'</div>';
+        echo '<div class="spielernamen red">'.$_SESSION['spieler1nick'].'</div> VS <div class="spielernamen yellow">'.$_SESSION['spieler2nick'].'</div>';
     }
     if ($colorset == "yellowred") {
-        echo '<div class="spielernamen yellow">'.$_SESSION['spieler1nick'].'</div>';
-        echo " VS ";
-        echo '<div class="spielernamen red">'.$_SESSION['spieler2nick'].'</div>';
+        echo '<div class="spielernamen yellow">'.$_SESSION['spieler1nick'].'</div> VS <div class="spielernamen red">'.$_SESSION['spieler2nick'].'</div>';
     }
+    if ($colorset == "blackwhite") {
+        echo '<div class="spielernamen black">'.$_SESSION['spieler1nick'].'</div> VS <div class="spielernamen white">'.$_SESSION['spieler2nick'].'</div>';
+    }
+    if ($colorset == "whiteblack") {
+        echo '<div class="spielernamen white">'.$_SESSION['spieler1nick'].'</div> VS <div class="spielernamen black">'.$_SESSION['spieler2nick'].'</div>';
+    }
+
+    echo "<div>";
 
     echo "<br>";
 
@@ -185,6 +188,28 @@ if (isset($_GET['getgame'])) {
             }
             if ($Partie[$i] == $Partie['Spieler2']) {
                 $type = "red";
+            }
+        }
+        if ($colorset == "blackwhite") {
+            if ($Partie[$i] == 0) {
+                $type = "neutral";
+            }
+            if ($Partie[$i] == $Partie['Spieler1']) {
+                $type = "black";
+            }
+            if ($Partie[$i] == $Partie['Spieler2']) {
+                $type = "white";
+            }
+        }
+        if ($colorset == "whiteblack") {
+            if ($Partie[$i] == 0) {
+                $type = "neutral";
+            }
+            if ($Partie[$i] == $Partie['Spieler1']) {
+                $type = "white";
+            }
+            if ($Partie[$i] == $Partie['Spieler2']) {
+                $type = "black";
             }
         }
 
