@@ -29,22 +29,23 @@
         </form>
     </div>
 
-    <?php
-    session_start();
+    <div id="playergreeting">
+        <?php
+            session_start();
 
-    //checks for valid userid
-    if (!isset($_SESSION['userid'])) {
-        die('<a href="index.php">Please log in first</a>');
-    }
+            //checks for valid userid
+            if (!isset($_SESSION['userid'])) {
+                die('<a href="index.php">Please log in first</a>');
+            }
 
-    //information
-    $user = $_SESSION['username'];
-    $gameid = $_SESSION['SpielId'];
-    echo "Hallo " . $user . "! ";
-    echo "<br>";
-    echo "gameid: " . $gameid;
-
-    ?>
+            //information
+            $user = $_SESSION['username'];
+            $gameid = $_SESSION['SpielId'];
+            echo "Hallo " . $user . "! ";
+            echo "<br>";
+            echo "gameid: " . $gameid;
+        ?>
+    </div>
     <br>
 
     <!-- selection field for gametable colors -->

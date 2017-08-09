@@ -16,7 +16,7 @@ function getpartyList() {
             div.innerHTML = return_data;
         }
 
-    }
+    };
 
     request.send();
     window.setTimeout("getpartyList()", 6000);
@@ -41,7 +41,7 @@ function joinparty(Spiel_ID) {
             getpartyList();
             //document.location.href= "gametable.php";
         }
-    }
+    };
     request.send();
 }
 
@@ -64,7 +64,7 @@ function createparty() {
             getpartyList();
             document.location.href = "gametable.php";
         }
-    }
+    };
     request.send();
 }
 
@@ -99,7 +99,7 @@ function spalte(spalte) {
             div.innerHTML = return_data;
             getgame(colorset);
         }
-    }
+    };
 
     request.send();
 }
@@ -121,7 +121,7 @@ function getgame(colorset) {
             var return_data = request.responseText;
             div.innerHTML = return_data;
         }
-    }
+    };
 
     request.send();
     window.setTimeout("getgame(colorset)", 6000);

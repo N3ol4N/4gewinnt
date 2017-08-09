@@ -102,6 +102,27 @@ if (isset($_GET['getgame'])) {
     $result = $statement->get_result();
     $Partie = $result->fetch_assoc();
 
+    $_SESSION['spieler1nick'] = $Partie['Spieler1'];
+    $_SESSION['spieler2nick'] = $Partie['Spieler2'];
+
+    if ($colorset == "neutral") {
+        echo '<div class="spielernamen">'.$_SESSION['spieler1nick'].'</div>';
+        echo " VS ";
+        echo '<div class="spielernamen">'.$_SESSION['spieler2nick'].'</div>';
+    }
+    if ($colorset == "redyellow") {
+        echo '<div class="spielernamen red">'.$_SESSION['spieler1nick'].'</div>';
+        echo " VS ";
+        echo '<div class="spielernamen yellow">'.$_SESSION['spieler2nick'].'</div>';
+    }
+    if ($colorset == "yellowred") {
+        echo '<div class="spielernamen yellow">'.$_SESSION['spieler1nick'].'</div>';
+        echo " VS ";
+        echo '<div class="spielernamen red">'.$_SESSION['spieler2nick'].'</div>';
+    }
+
+    echo "<br>";
+
     echo "<table>
             <tr>
                 <th>

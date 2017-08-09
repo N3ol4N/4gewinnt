@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a5c526d-6b05-4a12-ad6c-e85772e004af" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/css/bootstrap-3.3.7/js/bootstrap.js" afterPath="$PROJECT_DIR$/production/css/bootstrap-3.3.7/js/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/css/bootstrap-3.3.7/js/npm.js" afterPath="$PROJECT_DIR$/production/css/bootstrap-3.3.7/js/npm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/gametable.php" afterPath="$PROJECT_DIR$/production/gametable.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/js/functions.js" afterPath="$PROJECT_DIR$/production/js/functions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/logic/gamelogic.php" afterPath="$PROJECT_DIR$/production/logic/gamelogic.php" />
     </list>
     <ignored path="htdocs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,47 +51,54 @@
       <file leaf-file-name="gametable.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/production/gametable.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1260">
-              <caret line="84" column="5" lean-forward="true" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="385">
+              <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+              <folding>
+                <marker date="1502284555000" expanded="true" signature="2152:2160" ph="..." />
+                <marker date="1502284555000" expanded="true" signature="2192:2200" ph="..." />
+                <marker date="1502284555000" expanded="true" signature="2232:2300" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gamelogic.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="gamelogic.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/production/logic/gamelogic.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="623">
-              <caret line="130" column="25" lean-forward="true" selection-start-line="130" selection-start-column="25" selection-end-line="130" selection-end-column="25" />
+            <state relative-caret-position="251">
+              <caret line="111" column="5" lean-forward="true" selection-start-line="111" selection-start-column="5" selection-end-line="111" selection-end-column="5" />
               <folding>
-                <marker date="1502271762000" expanded="true" signature="264:303" ph="SELECT * FRO... parties" />
-                <marker date="1502271762000" expanded="true" signature="1104:1122" ph="UPDATE parti... " />
-                <marker date="1502271762000" expanded="true" signature="1104:1123" ph="UPDATE parti... " />
-                <marker date="1502271762000" expanded="true" signature="1104:1171" ph="UPDATE `spie... " />
-                <marker date="1502271762000" expanded="true" signature="1104:1172" ph="UPDATE parti... " />
-                <marker date="1502271762000" expanded="true" signature="1104:1226" ph="UPDATE parti... " />
-                <marker date="1502271762000" expanded="true" signature="1153:1171" ph="UPDATE `part... " />
-                <marker date="1502271762000" expanded="true" signature="1576:1595" ph="UPDATE parti... " />
-                <marker date="1502271762000" expanded="true" signature="1576:1596" ph="UPDATE parti... " />
-                <marker date="1502271762000" expanded="true" signature="1576:1643" ph="UPDATE `spie... " />
-                <marker date="1502271762000" expanded="true" signature="2050:2057" ph="UPDATE `part... " />
-                <marker date="1502271762000" expanded="true" signature="2050:2117" ph="UPDATE `part... " />
-                <marker date="1502271762000" expanded="true" signature="2525:2532" ph="UPDATE `part... " />
-                <marker date="1502271762000" expanded="true" signature="2525:2592" ph="UPDATE `part... " />
-                <marker date="1502271762000" expanded="true" signature="3000:3007" ph="UPDATE `part... " />
-                <marker date="1502271762000" expanded="true" signature="3000:3067" ph="UPDATE `part... " />
-                <marker date="1502271762000" expanded="true" signature="3475:3482" ph="UPDATE `part... " />
-                <marker date="1502271762000" expanded="true" signature="3475:3542" ph="UPDATE `part... " />
-                <marker date="1502271762000" expanded="true" signature="4215:4254" ph="SELECT * FRO... parties" />
-                <marker date="1502271762000" expanded="true" signature="4470:5489" ph="..." />
-                <marker date="1502271762000" expanded="true" signature="4487:5489" ph="..." />
-                <marker date="1502271762000" expanded="true" signature="4508:4627" ph="..." />
-                <marker date="1502271762000" expanded="true" signature="4648:4768" ph="..." />
-                <marker date="1502271762000" expanded="true" signature="4789:4908" ph="..." />
-                <marker date="1502271762000" expanded="true" signature="4929:5049" ph="..." />
-                <marker date="1502271762000" expanded="true" signature="5070:5189" ph="..." />
-                <marker date="1502271762000" expanded="true" signature="5210:5329" ph="..." />
-                <marker date="1502271762000" expanded="true" signature="5350:5471" ph="..." />
+                <marker date="1502284994000" expanded="true" signature="264:303" ph="SELECT * FRO... parties" />
+                <marker date="1502284994000" expanded="true" signature="1104:1122" ph="UPDATE parti... " />
+                <marker date="1502284994000" expanded="true" signature="1104:1123" ph="UPDATE parti... " />
+                <marker date="1502284994000" expanded="true" signature="1104:1171" ph="UPDATE `spie... " />
+                <marker date="1502284994000" expanded="true" signature="1104:1172" ph="UPDATE parti... " />
+                <marker date="1502284994000" expanded="true" signature="1104:1226" ph="UPDATE parti... " />
+                <marker date="1502284994000" expanded="true" signature="1153:1171" ph="UPDATE `part... " />
+                <marker date="1502284994000" expanded="true" signature="1576:1595" ph="UPDATE parti... " />
+                <marker date="1502284994000" expanded="true" signature="1576:1596" ph="UPDATE parti... " />
+                <marker date="1502284994000" expanded="true" signature="1576:1643" ph="UPDATE `spie... " />
+                <marker date="1502284994000" expanded="true" signature="2050:2057" ph="UPDATE `part... " />
+                <marker date="1502284994000" expanded="true" signature="2050:2117" ph="UPDATE `part... " />
+                <marker date="1502284994000" expanded="true" signature="2525:2532" ph="UPDATE `part... " />
+                <marker date="1502284994000" expanded="true" signature="2525:2592" ph="UPDATE `part... " />
+                <marker date="1502284994000" expanded="true" signature="3000:3007" ph="UPDATE `part... " />
+                <marker date="1502284994000" expanded="true" signature="3000:3067" ph="UPDATE `part... " />
+                <marker date="1502284994000" expanded="true" signature="3475:3482" ph="UPDATE `part... " />
+                <marker date="1502284994000" expanded="true" signature="3475:3542" ph="UPDATE `part... " />
+                <marker date="1502284994000" expanded="true" signature="4215:4254" ph="SELECT * FRO... parties" />
+                <marker date="1502284994000" expanded="true" signature="5273:6292" ph="..." />
+                <marker date="1502284994000" expanded="true" signature="5273:6605" ph="..." />
+                <marker date="1502284994000" expanded="true" signature="5290:6292" ph="..." />
+                <marker date="1502284994000" expanded="true" signature="5311:5430" ph="..." />
+                <marker date="1502284994000" expanded="true" signature="5451:5571" ph="..." />
+                <marker date="1502284994000" expanded="true" signature="5592:5711" ph="..." />
+                <marker date="1502284994000" expanded="true" signature="5732:5852" ph="..." />
+                <marker date="1502284994000" expanded="true" signature="5873:5992" ph="..." />
+                <marker date="1502284994000" expanded="true" signature="6013:6132" ph="..." />
+                <marker date="1502284994000" expanded="true" signature="6153:6274" ph="..." />
+                <marker date="1502284994000" expanded="true" signature="6309:6430" ph="..." />
+                <marker date="1502284994000" expanded="true" signature="7574:7604" ph="..." />
               </folding>
             </state>
           </provider>
@@ -135,11 +146,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="functions.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/production/js/functions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="129" column="56" lean-forward="false" selection-start-line="129" selection-start-column="56" selection-end-line="129" selection-end-column="56" />
+            <state relative-caret-position="241">
+              <caret line="114" column="0" lean-forward="true" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -196,6 +207,7 @@
       <find>$sql</find>
       <find>$user</find>
       <find>$bild_daten</find>
+      <find>$type</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -244,12 +256,10 @@
         <option value="$PROJECT_DIR$/production/css/styles.css" />
         <option value="$PROJECT_DIR$/production/index.php" />
         <option value="$PROJECT_DIR$/production/impressum.php" />
-        <option value="$PROJECT_DIR$/production/gametable.php" />
         <option value="$PROJECT_DIR$/production/logic/logout.php" />
         <option value="$PROJECT_DIR$/production/logic/login.php" />
         <option value="$PROJECT_DIR$/production/logic/loadgamelist.php" />
         <option value="$PROJECT_DIR$/production/logic/joinparty.php" />
-        <option value="$PROJECT_DIR$/production/logic/gamelogic.php" />
         <option value="$PROJECT_DIR$/production/logic/datenbank.php" />
         <option value="$PROJECT_DIR$/production/logic/createparty.php" />
         <option value="$PROJECT_DIR$/production/logic/authenticate.php" />
@@ -260,6 +270,8 @@
         <option value="$PROJECT_DIR$/production/accountmanagement.php" />
         <option value="$PROJECT_DIR$/production/logic/changes.php" />
         <option value="$PROJECT_DIR$/production/js/functions.js" />
+        <option value="$PROJECT_DIR$/production/gametable.php" />
+        <option value="$PROJECT_DIR$/production/logic/gamelogic.php" />
       </list>
     </option>
   </component>
@@ -446,12 +458,12 @@
       <workItem from="1501535490465" duration="4057000" />
       <workItem from="1501572232966" duration="24124000" />
       <workItem from="1501603441534" duration="13601000" />
-      <workItem from="1501675755316" duration="155418000" />
+      <workItem from="1501675755316" duration="156933000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="199066000" />
+    <option name="totallyTimeSpent" value="200581000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -928,56 +940,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/production/js/functions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="114" column="0" lean-forward="true" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/production/gametable.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="84" column="5" lean-forward="true" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="385">
+          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding>
+            <marker date="1502284555000" expanded="true" signature="2152:2160" ph="..." />
+            <marker date="1502284555000" expanded="true" signature="2192:2200" ph="..." />
+            <marker date="1502284555000" expanded="true" signature="2232:2300" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/production/logic/gamelogic.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="623">
-          <caret line="130" column="25" lean-forward="true" selection-start-line="130" selection-start-column="25" selection-end-line="130" selection-end-column="25" />
+        <state relative-caret-position="251">
+          <caret line="111" column="5" lean-forward="true" selection-start-line="111" selection-start-column="5" selection-end-line="111" selection-end-column="5" />
           <folding>
-            <marker date="1502271762000" expanded="true" signature="264:303" ph="SELECT * FRO... parties" />
-            <marker date="1502271762000" expanded="true" signature="1104:1122" ph="UPDATE parti... " />
-            <marker date="1502271762000" expanded="true" signature="1104:1123" ph="UPDATE parti... " />
-            <marker date="1502271762000" expanded="true" signature="1104:1171" ph="UPDATE `spie... " />
-            <marker date="1502271762000" expanded="true" signature="1104:1172" ph="UPDATE parti... " />
-            <marker date="1502271762000" expanded="true" signature="1104:1226" ph="UPDATE parti... " />
-            <marker date="1502271762000" expanded="true" signature="1153:1171" ph="UPDATE `part... " />
-            <marker date="1502271762000" expanded="true" signature="1576:1595" ph="UPDATE parti... " />
-            <marker date="1502271762000" expanded="true" signature="1576:1596" ph="UPDATE parti... " />
-            <marker date="1502271762000" expanded="true" signature="1576:1643" ph="UPDATE `spie... " />
-            <marker date="1502271762000" expanded="true" signature="2050:2057" ph="UPDATE `part... " />
-            <marker date="1502271762000" expanded="true" signature="2050:2117" ph="UPDATE `part... " />
-            <marker date="1502271762000" expanded="true" signature="2525:2532" ph="UPDATE `part... " />
-            <marker date="1502271762000" expanded="true" signature="2525:2592" ph="UPDATE `part... " />
-            <marker date="1502271762000" expanded="true" signature="3000:3007" ph="UPDATE `part... " />
-            <marker date="1502271762000" expanded="true" signature="3000:3067" ph="UPDATE `part... " />
-            <marker date="1502271762000" expanded="true" signature="3475:3482" ph="UPDATE `part... " />
-            <marker date="1502271762000" expanded="true" signature="3475:3542" ph="UPDATE `part... " />
-            <marker date="1502271762000" expanded="true" signature="4215:4254" ph="SELECT * FRO... parties" />
-            <marker date="1502271762000" expanded="true" signature="4470:5489" ph="..." />
-            <marker date="1502271762000" expanded="true" signature="4487:5489" ph="..." />
-            <marker date="1502271762000" expanded="true" signature="4508:4627" ph="..." />
-            <marker date="1502271762000" expanded="true" signature="4648:4768" ph="..." />
-            <marker date="1502271762000" expanded="true" signature="4789:4908" ph="..." />
-            <marker date="1502271762000" expanded="true" signature="4929:5049" ph="..." />
-            <marker date="1502271762000" expanded="true" signature="5070:5189" ph="..." />
-            <marker date="1502271762000" expanded="true" signature="5210:5329" ph="..." />
-            <marker date="1502271762000" expanded="true" signature="5350:5471" ph="..." />
+            <marker date="1502284994000" expanded="true" signature="264:303" ph="SELECT * FRO... parties" />
+            <marker date="1502284994000" expanded="true" signature="1104:1122" ph="UPDATE parti... " />
+            <marker date="1502284994000" expanded="true" signature="1104:1123" ph="UPDATE parti... " />
+            <marker date="1502284994000" expanded="true" signature="1104:1171" ph="UPDATE `spie... " />
+            <marker date="1502284994000" expanded="true" signature="1104:1172" ph="UPDATE parti... " />
+            <marker date="1502284994000" expanded="true" signature="1104:1226" ph="UPDATE parti... " />
+            <marker date="1502284994000" expanded="true" signature="1153:1171" ph="UPDATE `part... " />
+            <marker date="1502284994000" expanded="true" signature="1576:1595" ph="UPDATE parti... " />
+            <marker date="1502284994000" expanded="true" signature="1576:1596" ph="UPDATE parti... " />
+            <marker date="1502284994000" expanded="true" signature="1576:1643" ph="UPDATE `spie... " />
+            <marker date="1502284994000" expanded="true" signature="2050:2057" ph="UPDATE `part... " />
+            <marker date="1502284994000" expanded="true" signature="2050:2117" ph="UPDATE `part... " />
+            <marker date="1502284994000" expanded="true" signature="2525:2532" ph="UPDATE `part... " />
+            <marker date="1502284994000" expanded="true" signature="2525:2592" ph="UPDATE `part... " />
+            <marker date="1502284994000" expanded="true" signature="3000:3007" ph="UPDATE `part... " />
+            <marker date="1502284994000" expanded="true" signature="3000:3067" ph="UPDATE `part... " />
+            <marker date="1502284994000" expanded="true" signature="3475:3482" ph="UPDATE `part... " />
+            <marker date="1502284994000" expanded="true" signature="3475:3542" ph="UPDATE `part... " />
+            <marker date="1502284994000" expanded="true" signature="4215:4254" ph="SELECT * FRO... parties" />
+            <marker date="1502284994000" expanded="true" signature="5273:6292" ph="..." />
+            <marker date="1502284994000" expanded="true" signature="5273:6605" ph="..." />
+            <marker date="1502284994000" expanded="true" signature="5290:6292" ph="..." />
+            <marker date="1502284994000" expanded="true" signature="5311:5430" ph="..." />
+            <marker date="1502284994000" expanded="true" signature="5451:5571" ph="..." />
+            <marker date="1502284994000" expanded="true" signature="5592:5711" ph="..." />
+            <marker date="1502284994000" expanded="true" signature="5732:5852" ph="..." />
+            <marker date="1502284994000" expanded="true" signature="5873:5992" ph="..." />
+            <marker date="1502284994000" expanded="true" signature="6013:6132" ph="..." />
+            <marker date="1502284994000" expanded="true" signature="6153:6274" ph="..." />
+            <marker date="1502284994000" expanded="true" signature="6309:6430" ph="..." />
+            <marker date="1502284994000" expanded="true" signature="7574:7604" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/production/js/functions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="129" column="56" lean-forward="false" selection-start-line="129" selection-start-column="56" selection-end-line="129" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
