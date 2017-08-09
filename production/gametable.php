@@ -11,6 +11,7 @@
     <script language="JavaScript" type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 
     <script language="JavaScript" type="text/javascript">
+        //set neutral color for gametable
         colorset = "neutral";
     </script>
 </head>
@@ -31,10 +32,12 @@
     <?php
     session_start();
 
+    //checks for valid userid
     if (!isset($_SESSION['userid'])) {
         die('<a href="index.php">Please log in first</a>');
     }
 
+    //information
     $user = $_SESSION['username'];
     $gameid = $_SESSION['SpielId'];
     echo "Hallo " . $user . "! ";
@@ -43,10 +46,13 @@
 
     ?>
     <br>
+
+    <!-- selection field for gametable colors -->
     <div id="colorchanges">
         <form>
             <label>colours:</label><br>
-            <input type="radio" checked="checked" name="tablecolors" value="redyellow" onclick="setcolor(this.value)"> Red/Yellow<br>
+            <input type="radio" checked="checked" name="tablecolors" value="redyellow" onclick="setcolor(this.value)">
+            Red/Yellow<br>
             <input type="radio" name="tablecolors" value="yellowred" onclick="setcolor(this.value)"> Yellow/Red<br>
             <input type="radio" name="tablecolors" value="blackwhite" onclick="setcolor(this.value)"> Black/White<br>
             <input type="radio" name="tablecolors" value="whiteblack" onclick="setcolor(this.value)"> White/Black<br>
@@ -72,10 +78,12 @@
 </div>
 
 <script language="javascript">
+    //load the gametable into view
     getgame(colorset);
 </script>
 
 <?php
+//contact info
 require("impressum.php");
 ?>
 </body>

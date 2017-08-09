@@ -33,6 +33,7 @@
 </div>
 
 <?php
+//load impressum for contact
 require("impressum.php");
 ?>
 

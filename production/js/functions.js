@@ -1,4 +1,4 @@
-function getpartyList(){
+function getpartyList() {
     var request = new XMLHttpRequest();
     var path = "logic/loadgamelist.php";
     var div = document.getElementById("gamelist");
@@ -9,7 +9,7 @@ function getpartyList(){
     var return_data = request.responseText;
     div.innerHTML = return_data;
 
-    request.onreadystatechange = function() {
+    request.onreadystatechange = function () {
         if (request.readyState == 4 && request.status == 200) {
             var return_data = request.responseText;
             div.innerHTML = return_data;
@@ -21,10 +21,9 @@ function getpartyList(){
     window.setTimeout("getpartyList()", 6000);
 }
 
-function joinparty(Spiel_ID)
-{
+function joinparty(Spiel_ID) {
     var request = new XMLHttpRequest();
-    var path = "logic/joinparty.php?gameID="+Spiel_ID;
+    var path = "logic/joinparty.php?gameID=" + Spiel_ID;
     var div = document.getElementById("messages");
 
     request.open("GET", path, true);
@@ -33,7 +32,7 @@ function joinparty(Spiel_ID)
     var return_data = request.responseText;
     div.innerHTML = return_data;
 
-    request.onreadystatechange = function() {
+    request.onreadystatechange = function () {
         if (request.readyState == 4 && request.status == 200) {
             var return_data = request.responseText;
             div.innerHTML = return_data;
@@ -44,8 +43,7 @@ function joinparty(Spiel_ID)
     request.send();
 }
 
-function createparty()
-{
+function createparty() {
     var request = new XMLHttpRequest();
     var path = "logic/createparty.php?createparty";
     var div = document.getElementById("messages");
@@ -56,19 +54,18 @@ function createparty()
     var return_data = request.responseText;
     div.innerHTML = return_data;
 
-    request.onreadystatechange = function() {
+    request.onreadystatechange = function () {
         if (request.readyState == 4 && request.status == 200) {
             var return_data = request.responseText;
             div.innerHTML = return_data;
             getpartyList();
-            document.location.href= "gametable.php";
+            document.location.href = "gametable.php";
         }
     }
     request.send();
 }
 
-function logout()
-{
+function logout() {
     var request = new XMLHttpRequest();
     var path = "logic/logout.php";
 
@@ -77,13 +74,12 @@ function logout()
 
     request.send();
 
-    document.location.href= "index.php";
+    document.location.href = "index.php";
 }
 
-function spalte(spalte)
-{
+function spalte(spalte) {
     var request = new XMLHttpRequest();
-    var path = "logic/gamelogic.php?row="+spalte;
+    var path = "logic/gamelogic.php?row=" + spalte;
     var div = document.getElementById("message");
 
     request.open("GET", path, true);
@@ -92,7 +88,7 @@ function spalte(spalte)
     var return_data = request.responseText;
     div.innerHTML = return_data;
 
-    request.onreadystatechange = function() {
+    request.onreadystatechange = function () {
         if (request.readyState == 4 && request.status == 200) {
             var return_data = request.responseText;
             div.innerHTML = return_data;
@@ -102,10 +98,9 @@ function spalte(spalte)
     request.send();
 }
 
-function getgame(colorset)
-{
+function getgame(colorset) {
     var request = new XMLHttpRequest();
-    var path = "logic/gamelogic.php?getgame="+colorset;
+    var path = "logic/gamelogic.php?getgame=" + colorset;
     var div = document.getElementById("gamecontainer");
 
     request.open("GET", path, true);
@@ -114,7 +109,7 @@ function getgame(colorset)
     var return_data = request.responseText;
     div.innerHTML = return_data;
 
-    request.onreadystatechange = function() {
+    request.onreadystatechange = function () {
         if (request.readyState == 4 && request.status == 200) {
             var return_data = request.responseText;
             div.innerHTML = return_data;
@@ -126,9 +121,8 @@ function getgame(colorset)
 }
 
 
-function setcolor(value)
-{
-    colorset=value;
+function setcolor(value) {
+    colorset = value;
     getgame(colorset);
 
 }

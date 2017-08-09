@@ -5,6 +5,7 @@
     </div>
 </footer>
 <script type="application/javascript">
+    //generates contact email, to prevent bot-abusing
     function mail() {
         var praefix = "h.lang1508";
         var address = "googlemail.";

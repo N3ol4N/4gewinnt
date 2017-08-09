@@ -14,9 +14,11 @@
 <body>
 
 <?php
-require ('logic/changes.php');
-if ($showFormular=true) {
+//checks for changes in formular and hides formular if necessary
+require('logic/changes.php');
+if ($showFormular = true) {
     ?>
+
     <div id="changes">
         <div id="datachanges">
             <form action="logic/changes.php?change=1" method="post">
@@ -33,7 +35,7 @@ if ($showFormular=true) {
                 <input type="submit" value="Submit changes">
             </form>
         </div>
-            <br>
+        <br>
         <div id="avatarchanges">
             <form action="logic/changes.php?changeavatar=1" method="post" enctype='multipart/form-data'>
                 Change Avatar : <input type="file" size="50" name="changedavatar">

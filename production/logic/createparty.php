@@ -1,14 +1,10 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Heiko
- * Date: 07.08.17
- * Time: 11:33
- */
 
+//establish db-connection
 session_start();
-require ("datenbank.php");
-//prüft ob das loginformular abgeschickt wurde
+require("datenbank.php");
+
+//checks for get parameters and generates a game in database
 if (isset($_GET['createparty'])) {
     $username = $_SESSION['username'];
     $anzahl_spalten = 7;
@@ -16,10 +12,6 @@ if (isset($_GET['createparty'])) {
 
     $Spieler1_ID = $username;
     $AmZug = $username;
-
-    if ($my_db->connect_errno) {
-        die("Fehler bei der Netzwerkverbindung" . $my_db->connect_errno);
-    }
 
     $db_Befehl = "INSERT INTO `parties`(`Spieler1`, `AmZug`) VALUES (?,?)";
 
@@ -32,16 +24,5 @@ if (isset($_GET['createparty'])) {
 
     $_SESSION['SpielId'] = $SpielID;
 
-    /*
-    $db_Befehl = "INSERT INTO playgrounds (spalte, ebene, playgroundID) VALUES (?,?,?)";
-    $statement = $my_db->prepare($db_Befehl);
-
-    for ($ebene = 1; $ebene <= $anzahl_ebenen; $ebene++) {
-        for ($spalte = 1; $spalte <= $anzahl_spalten; $spalte++) {
-            $statement->bind_param('iii', $spalte, $ebene, $SpielID);
-            $statement->execute();
-        }
-    }
-    */
 }
 ?>

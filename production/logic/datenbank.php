@@ -1,5 +1,6 @@
 <?php
 
+//connection to database
 $sqlhost = "localhost";
 $sqlhost = "127.0.0.1";
 $sqluser = "root";
