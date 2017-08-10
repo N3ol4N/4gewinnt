@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a5c526d-6b05-4a12-ad6c-e85772e004af" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/logic/joinparty.php" afterPath="$PROJECT_DIR$/production/logic/joinparty.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/accountmanagement.php" afterPath="$PROJECT_DIR$/production/accountmanagement.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/logic/changes.php" afterPath="$PROJECT_DIR$/production/logic/changes.php" />
     </list>
     <ignored path="htdocs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="joinparty.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="joinparty.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/production/logic/joinparty.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="29" column="69" lean-forward="false" selection-start-line="29" selection-start-column="69" selection-end-line="29" selection-end-column="69" />
+            <state relative-caret-position="280">
+              <caret line="23" column="50" lean-forward="false" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
               <folding>
                 <marker date="1502358729000" expanded="true" signature="308:347" ph="SELECT * FRO... parties" />
                 <marker date="1502358729000" expanded="true" signature="1037:1088" ph="UPDATE `spie... " />
@@ -61,30 +62,30 @@
       <file leaf-file-name="accountmanagement.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/production/accountmanagement.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="210">
+              <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="changes.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="changes.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/production/logic/changes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="-1078">
+              <caret line="18" column="61" lean-forward="true" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
               <folding>
-                <marker date="1502357277000" expanded="true" signature="825:871" ph="UPDATE users... " />
-                <marker date="1502357277000" expanded="true" signature="1091:1141" ph="UPDATE users... " />
-                <marker date="1502357277000" expanded="true" signature="1359:1409" ph="UPDATE users... " />
-                <marker date="1502357277000" expanded="true" signature="1636:1692" ph="UPDATE users... " />
-                <marker date="1502357277000" expanded="true" signature="1967:2021" ph="UPDATE users... " />
-                <marker date="1502357277000" expanded="true" signature="3363:3440" ph="INSERT INTO `avatars`... " />
-                <marker date="1502357277000" expanded="true" signature="3363:3446" ph="INSERT INTO `avatars`... " />
-                <marker date="1502357277000" expanded="true" signature="3759:3770" ph="UPDATE users... " />
-                <marker date="1502357277000" expanded="true" signature="3759:3771" ph="UPDATE users... " />
-                <marker date="1502357277000" expanded="true" signature="3759:3776" ph="UPDATE users... " />
-                <marker date="1502357277000" expanded="true" signature="3759:3816" ph="UPDATE users... " />
+                <marker date="1502358932000" expanded="true" signature="1200:1246" ph="UPDATE users... " />
+                <marker date="1502358932000" expanded="true" signature="1466:1516" ph="UPDATE users... " />
+                <marker date="1502358932000" expanded="true" signature="1734:1784" ph="UPDATE users... " />
+                <marker date="1502358932000" expanded="true" signature="2011:2067" ph="UPDATE users... " />
+                <marker date="1502358932000" expanded="true" signature="2342:2396" ph="UPDATE users... " />
+                <marker date="1502358932000" expanded="true" signature="3738:3815" ph="INSERT INTO `avatars`... " />
+                <marker date="1502358932000" expanded="true" signature="3738:3821" ph="INSERT INTO `avatars`... " />
+                <marker date="1502358932000" expanded="true" signature="4134:4145" ph="UPDATE users... " />
+                <marker date="1502358932000" expanded="true" signature="4134:4146" ph="UPDATE users... " />
+                <marker date="1502358932000" expanded="true" signature="4134:4151" ph="UPDATE users... " />
+                <marker date="1502358932000" expanded="true" signature="4134:4191" ph="UPDATE users... " />
               </folding>
             </state>
           </provider>
@@ -93,7 +94,7 @@
       <file leaf-file-name="userdata.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/production/logic/userdata.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
+            <state relative-caret-position="211">
               <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
               <folding>
                 <marker date="1502355911000" expanded="true" signature="396:428" ph="SELECT * FRO... users" />
@@ -172,8 +173,8 @@
       <find>align</find>
       <find>user</find>
       <find>userdatacontainer</find>
-      <find>da</find>
       <find>registr</find>
+      <find>da</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -231,13 +232,13 @@
         <option value="$PROJECT_DIR$/production/logic/login.php" />
         <option value="$PROJECT_DIR$/production/lobby.php" />
         <option value="$PROJECT_DIR$/production/logic/userdata.php" />
-        <option value="$PROJECT_DIR$/production/logic/changes.php" />
-        <option value="$PROJECT_DIR$/production/accountmanagement.php" />
         <option value="$PROJECT_DIR$/production/registrierung.php" />
         <option value="$PROJECT_DIR$/production/index.php" />
         <option value="$PROJECT_DIR$/production/css/styles.css" />
         <option value="$PROJECT_DIR$/production/readme.txt" />
         <option value="$PROJECT_DIR$/production/logic/joinparty.php" />
+        <option value="$PROJECT_DIR$/production/accountmanagement.php" />
+        <option value="$PROJECT_DIR$/production/logic/changes.php" />
       </list>
     </option>
   </component>
@@ -436,12 +437,12 @@
       <workItem from="1501535490465" duration="4057000" />
       <workItem from="1501572232966" duration="24124000" />
       <workItem from="1501603441534" duration="13601000" />
-      <workItem from="1501675755316" duration="174905000" />
+      <workItem from="1501675755316" duration="175235000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="218553000" />
+    <option name="totallyTimeSpent" value="218883000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -878,49 +879,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/production/accountmanagement.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/production/logic/changes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <marker date="1502357277000" expanded="true" signature="825:871" ph="UPDATE users... " />
-            <marker date="1502357277000" expanded="true" signature="1091:1141" ph="UPDATE users... " />
-            <marker date="1502357277000" expanded="true" signature="1359:1409" ph="UPDATE users... " />
-            <marker date="1502357277000" expanded="true" signature="1636:1692" ph="UPDATE users... " />
-            <marker date="1502357277000" expanded="true" signature="1967:2021" ph="UPDATE users... " />
-            <marker date="1502357277000" expanded="true" signature="3363:3440" ph="INSERT INTO `avatars`... " />
-            <marker date="1502357277000" expanded="true" signature="3363:3446" ph="INSERT INTO `avatars`... " />
-            <marker date="1502357277000" expanded="true" signature="3759:3770" ph="UPDATE users... " />
-            <marker date="1502357277000" expanded="true" signature="3759:3771" ph="UPDATE users... " />
-            <marker date="1502357277000" expanded="true" signature="3759:3776" ph="UPDATE users... " />
-            <marker date="1502357277000" expanded="true" signature="3759:3816" ph="UPDATE users... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/production/logic/userdata.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-          <folding>
-            <marker date="1502355911000" expanded="true" signature="396:428" ph="SELECT * FRO... users" />
-            <marker date="1502355911000" expanded="true" signature="675:713" ph="SELECT * FRO... avatars" />
-            <marker date="1502355911000" expanded="true" signature="675:714" ph="SELECT * FRO... avatars" />
-            <marker date="1502355911000" expanded="true" signature="675:719" ph="SELECT * FRO... avatars" />
-            <marker date="1502355911000" expanded="true" signature="675:740" ph="SELECT * FRO... avatars" />
-            <marker date="1502355911000" expanded="true" signature="918:957" ph="data:" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/production/registrierung.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="515">
@@ -955,12 +913,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/production/logic/joinparty.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="29" column="69" lean-forward="false" selection-start-line="29" selection-start-column="69" selection-end-line="29" selection-end-column="69" />
+        <state relative-caret-position="280">
+          <caret line="23" column="50" lean-forward="false" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
           <folding>
             <marker date="1502358729000" expanded="true" signature="308:347" ph="SELECT * FRO... parties" />
             <marker date="1502358729000" expanded="true" signature="1037:1088" ph="UPDATE `spie... " />
             <marker date="1502358729000" expanded="true" signature="1292:1295" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/production/logic/userdata.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding>
+            <marker date="1502355911000" expanded="true" signature="396:428" ph="SELECT * FRO... users" />
+            <marker date="1502355911000" expanded="true" signature="675:713" ph="SELECT * FRO... avatars" />
+            <marker date="1502355911000" expanded="true" signature="675:714" ph="SELECT * FRO... avatars" />
+            <marker date="1502355911000" expanded="true" signature="675:719" ph="SELECT * FRO... avatars" />
+            <marker date="1502355911000" expanded="true" signature="675:740" ph="SELECT * FRO... avatars" />
+            <marker date="1502355911000" expanded="true" signature="918:957" ph="data:" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/production/accountmanagement.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/production/logic/changes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1078">
+          <caret line="18" column="61" lean-forward="true" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
+          <folding>
+            <marker date="1502358932000" expanded="true" signature="1200:1246" ph="UPDATE users... " />
+            <marker date="1502358932000" expanded="true" signature="1466:1516" ph="UPDATE users... " />
+            <marker date="1502358932000" expanded="true" signature="1734:1784" ph="UPDATE users... " />
+            <marker date="1502358932000" expanded="true" signature="2011:2067" ph="UPDATE users... " />
+            <marker date="1502358932000" expanded="true" signature="2342:2396" ph="UPDATE users... " />
+            <marker date="1502358932000" expanded="true" signature="3738:3815" ph="INSERT INTO `avatars`... " />
+            <marker date="1502358932000" expanded="true" signature="3738:3821" ph="INSERT INTO `avatars`... " />
+            <marker date="1502358932000" expanded="true" signature="4134:4145" ph="UPDATE users... " />
+            <marker date="1502358932000" expanded="true" signature="4134:4146" ph="UPDATE users... " />
+            <marker date="1502358932000" expanded="true" signature="4134:4151" ph="UPDATE users... " />
+            <marker date="1502358932000" expanded="true" signature="4134:4191" ph="UPDATE users... " />
           </folding>
         </state>
       </provider>

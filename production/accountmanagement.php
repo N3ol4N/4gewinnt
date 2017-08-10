@@ -13,10 +13,10 @@
 </head>
 <body onload="mail();">
 <div id="accountheader">
-<?php
-//checks for changes in formular and hides formular if necessary
-require('logic/changes.php');
-if ($showFormular = true) {
+    <?php
+        //checks for changes in formular and hides formular if necessary
+        require('logic/changes.php');
+        if ($showFormular = true) {
     ?>
     <div>
         <br>
@@ -24,7 +24,7 @@ if ($showFormular = true) {
             <input type="submit" value="back to lobby">
         </form>
     </div>
-    </div>
+</div>
 </div>
         <br>
         <div class="container">

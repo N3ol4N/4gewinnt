@@ -13,6 +13,11 @@ if (isset($_GET['change'])) {
 
     echo "<br>";
     echo '<div class="changemessages">';
+    echo "<link rel=\"stylesheet\" href=\"../css/bootstrap-3.3.7/css/bootstrap.min.css\">
+          <link rel=\"stylesheet\" href=\"../css/styles.css\">
+    
+          <script language=\"javascript\" type=\"text/javascript\" src=\"../js/functions.js\"></script>
+          <script language=\"JavaScript\" type=\"text/javascript\" src=\"../js/jquery-3.2.1.min.js\"></script>";
 
     $error = false;
 
