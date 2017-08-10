@@ -23,6 +23,8 @@ profilbilder können über das accountmanagement hinzugefügt werden und werden 
 
 ajax requests finden sich gehäuft innerhalb von gametable.php. die buttons für die spielsteineinwürfe senden per javascript einen request.
 
+um einen reibungsfreien ablauf zu garantieren ist es sinnvoll sich auf unterschiedlichen browsern mit unterscheidlichen usern anzumelden
+des weiteren sollte man nicht in einem spiel einen zug machen bevor ein zweiter spieler dem spiel beigetreten ist
 ______________
 
 entwicklerkommentar:

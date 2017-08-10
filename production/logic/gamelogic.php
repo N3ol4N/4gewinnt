@@ -119,6 +119,8 @@ if (isset($_GET['getgame'])) {
     echo "</div>";
     echo "<br>";
 
+    echo '<div>Am Zug : '.$Partie['AmZug'].'</div>';
+
     echo '<div id="playground">';
 
     echo "<table>
