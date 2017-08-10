@@ -11,6 +11,9 @@ require('userdata.php');
 //checks for a send datachange
 if (isset($_GET['change'])) {
 
+    echo "<br>";
+    echo '<div class="changemessages">';
+
     $error = false;
 
     //prevent code injection
@@ -60,11 +63,15 @@ if (isset($_GET['change'])) {
         $showFormular = false;
     }
 
+    echo "</div>";
     echo "<br>";
 }
 
 //checks for changed picture
 if (isset($_GET['changeavatar'])) {
+
+    echo "<br>";
+    echo '<div class="changemessages">';
 
     echo "<link rel=\"stylesheet\" href=\"../css/bootstrap-3.3.7/css/bootstrap.min.css\">
           <link rel=\"stylesheet\" href=\"../css/styles.css\">
@@ -97,14 +104,19 @@ if (isset($_GET['changeavatar'])) {
         echo "avatar successfully changed.<br>";
 
     } else {
-        echo "<BR>Wrong data format for an avatar; use gif, pjpeg, jpeg or png.<BR>";
+        echo "<br>Wrong data format for an avatar; use gif, pjpeg, jpeg or png.<br>";
     }
 
+    echo "</div>";
 }
 
 //hides formular on changes and shows link back to lobby instead
 if ($showFormular == false) {
+    echo "<br>";
+    echo '<div class="changemessages">';
     echo '<br><a href="../lobby.php">Back to Lobby</a>';
+    echo "</div>";
+
 }
 
 ?>

@@ -32,12 +32,16 @@
     }
 
     echo "<div id=userdata>";
-    echo "Nickname: " . $userload['nickname'] . "<br />";
-    echo "E-Mail: " . $userload['mail'] . "<br />";
-    echo "Name: " . $userload['username'] . "<br />";
-    echo "Alter: " . $userload['useralter'] . "<br />";
-    echo "Geschlecht: " . $userload['geschlecht'] . "<br />";
+    echo "Nickname: " . $userload['nickname'] . "<br>";
+    echo "E-Mail: " . $userload['mail'] . "<br>";
+    echo "Name: " . $userload['username'] . "<br>";
+    echo "Alter: " . $userload['useralter'] . "<br>";
+    echo "Geschlecht: " . $userload['geschlecht'] . "<br>";
     echo "</div>";
 
     echo "<br>";
+
+    if($result23){
+        echo "</div>";
+    }
 ?>

@@ -14,6 +14,7 @@
 <div class="disclaimer">
     <h1>Connect Four</h1>
 </div>
+<br>
 <div class="container" id="registrierungscontainer">
     <h2>Registration</h2>
     <form accept-charset="UTF-8" role="form" action="logic/registration.php?registration=1" method="post"

@@ -31,6 +31,7 @@ if (isset($_GET['login'])) {
         if ($user['confirmed']) {
             $_SESSION['userid'] = $user['id'];
             $_SESSION['username'] = $user['nickname'];
+
             header('Location: ../lobby.php');
         } else {
             echo "You are not verified. You need to check your emails or click the following link : ";

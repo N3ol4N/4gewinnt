@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Accountmanagement</title>
@@ -11,7 +11,7 @@
     <script language="JavaScript" type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 
 </head>
-<body>
+<body onload="mail();">
 <div id="accountheader">
 <?php
 //checks for changes in formular and hides formular if necessary
@@ -25,10 +25,12 @@ if ($showFormular = true) {
         </form>
     </div>
     </div>
+</div>
         <br>
         <div class="container">
             <div id="changes">
                 <div id="datachanges">
+                    <br>
                     <p>Enter your Accountchanges below :</p>
                     <form action="logic/changes.php?change=1" method="post">
                         new Email : <input type="email" size="40" maxlength="250" name="changedmail" class="form-control"><br>
@@ -62,7 +64,10 @@ if ($showFormular = true) {
 
 <br><br>
 
-
+<?php
+//contact info
+require("impressum.php");
+?>
 </div>
 </body>
 </html>

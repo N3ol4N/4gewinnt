@@ -29,6 +29,7 @@
         echo "Hallo " . $user . "! ";
 
         ?>
+
         <div id="Optionen">
             <button onclick="logout()">Logout</button>
             <form action="accountmanagement.php">

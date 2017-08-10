@@ -17,7 +17,7 @@
     <h1>Connect Four</h1>
 </div>
 <br>
-<div class="container">
+<div class="container" id="logincontainer">
     <h2>Login</h2>
     <form accept-charset="UTF-8" action="logic/login.php?login=1" method="post" enctype='multipart/form-data'>
         <label>E-Mail or Nickame:</label>

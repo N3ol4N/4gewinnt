@@ -19,6 +19,9 @@ nickname: user1
 email: user1@test.de
 pw: user1
 
+profilbilder können über das accountmanagement hinzugefügt werden und werden auch dort angezeigt
+
+ajax requests finden sich gehäuft innerhalb von gametable.php. die buttons für die spielsteineinwürfe senden per javascript einen request.
 
 ______________
 
@@ -26,6 +29,8 @@ entwicklerkommentar:
 
 getestet auf firefox v.54.0.1 und chrome 60.0.3112.90
 getestet auf einem widescreen-bildschirm und maximiertem browser
+
+sollten die spieloberfläche oder die lobby aufflackern, passiert dies auf Grund des automatisierten pollings.
 
 zur besseren Nutzbarkeit wurde der die emailfunktion für die challenge auskommentiert und als link direkt in der website implementiert. (vgl registration.php zeile 97/98)
 
