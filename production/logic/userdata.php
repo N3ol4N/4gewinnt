@@ -38,7 +38,6 @@
     echo "Alter: " . $userload['useralter'] . "<br />";
     echo "Geschlecht: " . $userload['geschlecht'] . "<br />";
     echo "</div>";
-    echo "</div>";
 
     echo "<br>";
 ?>

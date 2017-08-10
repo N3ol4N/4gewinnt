@@ -13,8 +13,6 @@
 
 <body onload="mail();">
 
-<div class="container">
-
 <div>
     <?php
     session_start();
@@ -41,6 +39,12 @@
 </div>
 
 <br>
+<br>
+
+<div class="container">
+
+<br>
+
 <div id="lobbycontent">
     <form action="gametable.php">
         <input type="submit" value="active game">
@@ -60,6 +64,7 @@
         <button onclick="createparty()">Create new game</button>
     </div>
 </div>
+<br>
 
 <?php
 //load impressum for contact

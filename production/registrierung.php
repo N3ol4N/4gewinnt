@@ -39,7 +39,7 @@
         <label>Gender:</label><br>
         <input type="radio" checked="checked" name="geschlecht" value="female"> female<br>
         <input type="radio" name="geschlecht" value="male"> male<br>
-        <input type="radio" name="geschlecht" value="apache">Apache Helicopter<br>
+        <input type="radio" name="geschlecht" value="apache"> Apache Helicopter<br>
         <br>
         <button type="submit" class="btn">Create Account</button>
     </form>

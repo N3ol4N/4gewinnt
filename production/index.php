@@ -16,6 +16,7 @@
 <div class="disclaimer">
     <h1>Connect Four</h1>
 </div>
+<br>
 <div class="container">
     <h2>Login</h2>
     <form accept-charset="UTF-8" action="logic/login.php?login=1" method="post" enctype='multipart/form-data'>

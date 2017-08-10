@@ -18,42 +18,46 @@
 
 <body onload="mail();">
 
-<div class="container">
-    <?php
-        if(!isset($_SESSION['SpielId'])) {
-        die('first create a game in the &nbsp<a href="lobby.php">lobby</a>');
-        }
-    ?>
-    <div id="gameheader">
-        <div id="playergreeting">
-            <?php
-                session_start();
+<div id="gameheader">
+    <div id="playergreeting">
+        <?php
+            session_start();
 
-                //checks for valid userid
-                if (!isset($_SESSION['userid'])) {
-                    die('<a href="index.php">Please log in first</a>');
-                }
+            //checks for valid userid
+            if (!isset($_SESSION['userid'])) {
+                die('<a href="index.php">Please log in first</a>');
+            }
 
-            //information
-                $user = $_SESSION['username'];
-                $gameid = $_SESSION['SpielId'];
-                echo "Hallo " . $user . "! ";
-                echo "<br>";
-                echo "gameid: " . $gameid;
-            ?>
-        </div>
-        <br>
+            if(!isset($_SESSION['SpielId'])) {
+                die('<a href="lobby.php">You need to open a new game or join an open one. click here to get back to lobby</a>');
+            }
 
-        <div id="Optionen">
-            <button onclick="logout()">Logout</button>
-            <form action="accountmanagement.php">
-                <input type="submit" value="Accountmanagement">
-            </form>
-            <form action="lobby.php">
-                <input type="submit" value="Back to lobby">
-            </form>
-        </div>
+        //information
+            $user = $_SESSION['username'];
+            $gameid = $_SESSION['SpielId'];
+            echo "Hallo " . $user . "! ";
+            echo "<br>";
+            echo "gameid: " . $gameid;
+            echo "<br>";
+        ?>
     </div>
+    <br>
+
+    <div id="Optionen">
+        <button onclick="logout()">Logout</button>
+        <form action="accountmanagement.php">
+            <input type="submit" value="Accountmanagement">
+        </form>
+        <form action="lobby.php">
+            <input type="submit" value="Back to lobby">
+        </form>
+    </div>
+</div>
+
+<br>
+
+<div class="container">
+
     <br>
     <div id="gamerelevantcontent">
 
@@ -72,11 +76,12 @@
         <div id="gamecontainer">
 
         </div>
-    </div>
-    <div id="message">
+        <div id="message">
 
+        </div>
     </div>
 
+    <br>
     <br>
 
     <script language="javascript">
