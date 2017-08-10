@@ -42,7 +42,7 @@
                         <br>
                         <input type="radio" checked="checked" name="changedgender" value="female"> female<br>
                         <input type="radio" name="changedgender" value="male"> male<br>
-                        <input type="radio" name="changedgender" value="apache helicopter">Apache Helicopter<br>
+                        <input type="radio" name="changedgender" value="apache helicopter"> Apache Helicopter<br>
                         <br>
                         <input type="submit" value="Submit changes">
                     </form>
