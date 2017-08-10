@@ -20,14 +20,14 @@ if (isset($_GET['gameID'])) {
     $result = $statement->get_result();
     $Partie = $result->fetch_assoc();
 
-    //checks for empty place
-    if ($Partie['Spieler2'] != 0) {
-        echo "<br><br>Game is full. look for an empty game!<br>";
-
-        //checks if a user is already in that game and changes his current game id to that
-    } else if ($Partie['Spieler1'] == $username || $Partie['Spieler2'] == $username) {
+    //checks if a user is already in that game and changes his current game id to that
+    if ($Partie['Spieler1'] == $username || $Partie['Spieler2'] == $username) {
         echo "<br><br>You are already in this game<br>";
         $_SESSION['SpielId'] = $Partie['SpielID'];
+
+    //checks for empty place
+    } else if ($Partie['Spieler2'] != "noone") {
+            echo "<br><br>Game is full. look for an empty game!<br>";
 
         //adds user to the game
     } else {

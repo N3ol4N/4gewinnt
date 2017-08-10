@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a5c526d-6b05-4a12-ad6c-e85772e004af" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/accountmanagement.php" afterPath="$PROJECT_DIR$/production/accountmanagement.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/css/styles.css" afterPath="$PROJECT_DIR$/production/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/index.php" afterPath="$PROJECT_DIR$/production/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/lobby.php" afterPath="$PROJECT_DIR$/production/lobby.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/logic/changes.php" afterPath="$PROJECT_DIR$/production/logic/changes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/logic/login.php" afterPath="$PROJECT_DIR$/production/logic/login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/logic/userdata.php" afterPath="$PROJECT_DIR$/production/logic/userdata.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/readme.txt" afterPath="$PROJECT_DIR$/production/readme.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/registrierung.php" afterPath="$PROJECT_DIR$/production/registrierung.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/logic/joinparty.php" afterPath="$PROJECT_DIR$/production/logic/joinparty.php" />
     </list>
     <ignored path="htdocs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,12 +24,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="readme.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="readme.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/production/readme.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="222">
+              <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="joinparty.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/production/logic/joinparty.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="370">
+              <caret line="29" column="69" lean-forward="false" selection-start-line="29" selection-start-column="69" selection-end-line="29" selection-end-column="69" />
+              <folding>
+                <marker date="1502358729000" expanded="true" signature="308:347" ph="SELECT * FRO... parties" />
+                <marker date="1502358729000" expanded="true" signature="1037:1088" ph="UPDATE `spie... " />
+                <marker date="1502358729000" expanded="true" signature="1292:1295" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -221,7 +226,6 @@
         <option value="$PROJECT_DIR$/production/logic/authenticate.php" />
         <option value="$PROJECT_DIR$/production/logic/registration.php" />
         <option value="$PROJECT_DIR$/production/js/functions.js" />
-        <option value="$PROJECT_DIR$/production/logic/joinparty.php" />
         <option value="$PROJECT_DIR$/production/logic/gamelogic.php" />
         <option value="$PROJECT_DIR$/production/gametable.php" />
         <option value="$PROJECT_DIR$/production/logic/login.php" />
@@ -233,6 +237,7 @@
         <option value="$PROJECT_DIR$/production/index.php" />
         <option value="$PROJECT_DIR$/production/css/styles.css" />
         <option value="$PROJECT_DIR$/production/readme.txt" />
+        <option value="$PROJECT_DIR$/production/logic/joinparty.php" />
       </list>
     </option>
   </component>
@@ -431,12 +436,12 @@
       <workItem from="1501535490465" duration="4057000" />
       <workItem from="1501572232966" duration="24124000" />
       <workItem from="1501603441534" duration="13601000" />
-      <workItem from="1501675755316" duration="174572000" />
+      <workItem from="1501675755316" duration="174905000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="218220000" />
+    <option name="totallyTimeSpent" value="218553000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -806,18 +811,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/production/logic/joinparty.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <marker date="1502295183000" expanded="true" signature="308:347" ph="SELECT * FRO... parties" />
-            <marker date="1502295183000" expanded="true" signature="1031:1082" ph="UPDATE `spie... " />
-            <marker date="1502295183000" expanded="true" signature="1286:1289" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/production/logic/registration.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
@@ -954,9 +947,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/production/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="222">
+          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/production/logic/joinparty.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="29" column="69" lean-forward="false" selection-start-line="29" selection-start-column="69" selection-end-line="29" selection-end-column="69" />
+          <folding>
+            <marker date="1502358729000" expanded="true" signature="308:347" ph="SELECT * FRO... parties" />
+            <marker date="1502358729000" expanded="true" signature="1037:1088" ph="UPDATE `spie... " />
+            <marker date="1502358729000" expanded="true" signature="1292:1295" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
