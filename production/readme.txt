@@ -1,6 +1,6 @@
 systemstart:
 
-production-files in xampp/htdocs laden
+production-ordner in xampp/htdocs laden
 
 Apache und Sql-Server starten
 
@@ -25,6 +25,8 @@ ajax requests finden sich gehäuft innerhalb von gametable.php. die buttons für
 
 um einen reibungsfreien ablauf zu garantieren ist es sinnvoll sich auf unterschiedlichen browsern mit unterscheidlichen usern anzumelden
 des weiteren sollte man nicht in einem spiel einen zug machen bevor ein zweiter spieler dem spiel beigetreten ist
+
+die gewinnerabfrage ist innerhalb des spielfeldes als message auf der rechten seite sichtbar (vgl gamelogic.php zeile 224 ff)
 ______________
 
 entwicklerkommentar:
@@ -34,7 +36,8 @@ getestet auf einem widescreen-bildschirm und maximiertem browser
 
 sollten die spieloberfläche oder die lobby aufflackern, passiert dies auf Grund des automatisierten pollings.
 
-zur besseren Nutzbarkeit wurde der die emailfunktion für die challenge auskommentiert und als link direkt in der website implementiert. (vgl registration.php zeile 97/98)
+dem user wird vor der aktivierung eine challenge übermittelt. diese muss einmal übermittelt werden um anzuzeigen dass der nutzer auch die angegebene email adresse besitzt.
+zur besseren Nutzbarkeit wurde die emailfunktion für die challenge auskommentiert und als link direkt in der website implementiert. (vgl registration.php zeile 97/98)
 
 zur sicherheit wurden alle einträge aus den formularen durch real_escape_string gefiltert.
 außerdem wird jedesmal die session id gecheckt wenn eine neue seite aufgerufen wird.

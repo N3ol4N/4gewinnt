@@ -147,6 +147,7 @@ if (isset($_GET['getgame'])) {
                     <button type=\"button\" onclick=\"spalte(7)\">Insert in this row</button>
                 </th>
             </tr>";
+    echo "<br>";
     echo "<tr>";
 
     //checks for colorset
@@ -217,6 +218,124 @@ if (isset($_GET['getgame'])) {
     echo "</table>";
     echo "</div>";
     echo "</div>";
+}
+
+
+// gewinner check
+
+function horizontal($position, $count, $Spiel_ID)
+{
+    require ("datenbank.php");
+
+    $db_Befehl = "SELECT * FROM parties WHERE SpielID = ?";
+    $statement = $my_db->prepare($db_Befehl);
+    $statement->bind_param('i', $Spiel_ID);
+    $statement->execute();
+
+    $result = $statement->get_result();
+    $Partie = $result->fetch_assoc();
+
+    if($Partie[$position] != "0") {
+
+        if ($count == 4) {
+            echo "<h3>winner horizontal : " . $Partie[$position]."</h3><br>";
+
+        } else if ((floor(($position - 1) / 7) == floor(($position) / 7))) {
+            if ($Partie[$position] == $Partie[$position + 1]) {
+                $count++;
+                if ($position < 43) {
+                    horizontal($position + 1, $count, $Spiel_ID);
+                }
+            }
+        }
+    }
+}
+
+function vertical($position, $count, $Spiel_ID)
+{
+    require ("datenbank.php");
+
+    $db_Befehl = "SELECT * FROM parties WHERE SpielID = ?";
+    $statement = $my_db->prepare($db_Befehl);
+    $statement->bind_param('i', $Spiel_ID);
+    $statement->execute();
+
+    $result = $statement->get_result();
+    $Partie = $result->fetch_assoc();
+
+    if ($Partie[$position] != "0") {
+
+        if ($count == 4) {
+            echo "<h3>winner vertical : " . $Partie[$position]."</h3><br>";
+
+        } else if ($Partie[$position] == $Partie[$position + 7]) {
+            $count++;
+            if ($position < 35) {
+                vertical($position + 7, $count, $Spiel_ID);
+            }
+        }
+    }
+}
+
+function diagonalrechts($position, $count, $Spiel_ID)
+{
+    require ("datenbank.php");
+
+    $db_Befehl = "SELECT * FROM parties WHERE SpielID = ?";
+    $statement = $my_db->prepare($db_Befehl);
+    $statement->bind_param('i', $Spiel_ID);
+    $statement->execute();
+
+    $result = $statement->get_result();
+    $Partie = $result->fetch_assoc();
+
+    if ($Partie[$position] != "0") {
+
+        if ($count == 4) {
+            echo "winner diagonal right : " . $Partie[$position]."<br>";
+
+        } else if ($Partie[$position] == $Partie[$position + 8]) {
+            $count++;
+            if (($position + 8) < 42) {
+                diagonalrechts($position + 8, $count, $Spiel_ID);
+            }
+        }
+    }
+}
+
+function diagonallinks($position, $count, $Spiel_ID)
+{
+    require ("datenbank.php");
+
+    $db_Befehl = "SELECT * FROM parties WHERE SpielID = ?";
+    $statement = $my_db->prepare($db_Befehl);
+    $statement->bind_param('i', $Spiel_ID);
+    $statement->execute();
+
+    $result = $statement->get_result();
+    $Partie = $result->fetch_assoc();
+
+    if ($Partie[$position] != "0") {
+
+        if ($count == 4) {
+            echo "winner diagonal left: " . $Partie[$position]."<br>";
+
+        } else if ($Partie[$position] == $Partie[$position + 6]) {
+            $count++;
+            if (($position + 6) < 42) {
+                diagonallinks($position + 6, $count, $Spiel_ID);
+            }
+        }
+    }
+}
+
+
+//prüft für jedes feld ob ein gewinner feststeht
+for($i = 1 ; $i < 42 ; $i++) {
+    horizontal ($i, 1, $Spiel_ID);
+    vertical($i, 1, $Spiel_ID);
+    diagonalrechts($i, 1, $Spiel_ID);
+    diagonallinks($i, 1, $Spiel_ID);
 }
 
 ?>
