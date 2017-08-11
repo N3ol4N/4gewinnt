@@ -126,33 +126,33 @@ if (isset($_GET['getgame'])) {
     echo "<table>
             <tr>
                 <th>
-                    <button type=\"button\" onclick=\"spalte(1)\">Insert in this row</button>
+                    <button type=\"button\" onclick=\"spalte(7)\">Insert into this row</button>
                 </th>
                 <th>
-                    <button type=\"button\" onclick=\"spalte(2)\">Insert in this row</button>
+                    <button type=\"button\" onclick=\"spalte(6)\">Insert into this row</button>
                 </th>
                 <th>
-                    <button type=\"button\" onclick=\"spalte(3)\">Insert in this row</button>
+                    <button type=\"button\" onclick=\"spalte(5)\">Insert into this row</button>
                 </th>
                 <th>
-                    <button type=\"button\" onclick=\"spalte(4)\">Insert in this row</button>
+                    <button type=\"button\" onclick=\"spalte(4)\">Insert into this row</button>
                 </th>
                 <th>
-                    <button type=\"button\" onclick=\"spalte(5)\">Insert in this row</button>
+                    <button type=\"button\" onclick=\"spalte(3)\">Insert into this row</button>
                 </th>
                 <th>
-                    <button type=\"button\" onclick=\"spalte(6)\">Insert in this row</button>
+                    <button type=\"button\" onclick=\"spalte(2)\">Insert into this row</button>
                 </th>
                 <th>
-                    <button type=\"button\" onclick=\"spalte(7)\">Insert in this row</button>
+                    <button type=\"button\" onclick=\"spalte(1)\">Insert into this row</button>
                 </th>
             </tr>";
     echo "<br>";
     echo "<tr>";
 
     //checks for colorset
-    for ($i = 1; $i <= 42; $i++) {
-        if (($i - 1) % 7 == 0) {
+    for ($i = 42; $i >= 1; $i--) {
+        if (($i ) % 7 == 0) {
             echo "</tr>";
         }
         if ($colorset == "neutral") {
@@ -212,7 +212,7 @@ if (isset($_GET['getgame'])) {
         }
 
 
-        echo ' <td id = "' . $i . '"class="' . $type . '"></td>';
+        echo ' <td id = "' . ($i) . '"class="' . $type . '"></td>';
     }
     echo "<tr>";
     echo "</table>";

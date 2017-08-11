@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a5c526d-6b05-4a12-ad6c-e85772e004af" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/production/databases.sql" afterPath="$PROJECT_DIR$/production/datenbank.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/js/functions.js" afterPath="$PROJECT_DIR$/production/js/functions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/logic/gamelogic.php" afterPath="$PROJECT_DIR$/production/logic/gamelogic.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/readme.txt" afterPath="$PROJECT_DIR$/production/readme.txt" />
     </list>
     <ignored path="htdocs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,11 +26,53 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="datenbank.sql" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/production/datenbank.sql">
+      <file leaf-file-name="readme.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/production/readme.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="84" column="41" lean-forward="true" selection-start-line="84" selection-start-column="41" selection-end-line="84" selection-end-column="41" />
+            <state relative-caret-position="126">
+              <caret line="31" column="20" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gamelogic.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/production/logic/gamelogic.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="143" column="95" lean-forward="true" selection-start-line="143" selection-start-column="95" selection-end-line="143" selection-end-column="95" />
+              <folding>
+                <marker date="1502467841000" expanded="true" signature="264:303" ph="SELECT * FRO... parties" />
+                <marker date="1502467841000" expanded="true" signature="1104:1171" ph="UPDATE parti... " />
+                <marker date="1502467841000" expanded="true" signature="1495:1562" ph="UPDATE parti... " />
+                <marker date="1502467841000" expanded="true" signature="1889:1956" ph="UPDATE parti... " />
+                <marker date="1502467841000" expanded="true" signature="2283:2350" ph="UPDATE parti... " />
+                <marker date="1502467841000" expanded="true" signature="2677:2744" ph="UPDATE parti... " />
+                <marker date="1502467841000" expanded="true" signature="3071:3138" ph="UPDATE parti... " />
+                <marker date="1502467841000" expanded="true" signature="3725:3764" ph="SELECT * FRO... parties" />
+                <marker date="1502467841000" expanded="true" signature="5267:6275" ph="..." />
+                <marker date="1502467841000" expanded="true" signature="5284:6275" ph="..." />
+                <marker date="1502467841000" expanded="true" signature="5305:5423" ph="..." />
+                <marker date="1502467841000" expanded="true" signature="5444:5562" ph="..." />
+                <marker date="1502467841000" expanded="true" signature="5583:5701" ph="..." />
+                <marker date="1502467841000" expanded="true" signature="5722:5840" ph="..." />
+                <marker date="1502467841000" expanded="true" signature="5861:5979" ph="..." />
+                <marker date="1502467841000" expanded="true" signature="6000:6118" ph="..." />
+                <marker date="1502467841000" expanded="true" signature="6139:6257" ph="..." />
+                <marker date="1502467841000" expanded="true" signature="8407:8446" ph="SELECT * FRO... parties" />
+                <marker date="1502467841000" expanded="true" signature="9211:9250" ph="SELECT * FRO... parties" />
+                <marker date="1502467841000" expanded="true" signature="9914:9953" ph="SELECT * FRO... parties" />
+                <marker date="1502467841000" expanded="true" signature="10625:10664" ph="SELECT * FRO... parties" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/production/js/functions.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="129" column="56" lean-forward="true" selection-start-line="129" selection-start-column="56" selection-end-line="129" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -72,6 +115,7 @@
       <find>da</find>
       <find>Am Zug</find>
       <find>AmZug</find>
+      <find>$Partie</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -132,10 +176,10 @@
         <option value="$PROJECT_DIR$/production/logic/changes.php" />
         <option value="$PROJECT_DIR$/production/css/styles.css" />
         <option value="$PROJECT_DIR$/gewinnertest.php" />
-        <option value="$PROJECT_DIR$/production/js/functions.js" />
-        <option value="$PROJECT_DIR$/production/logic/gamelogic.php" />
-        <option value="$PROJECT_DIR$/production/readme.txt" />
         <option value="$PROJECT_DIR$/production/accountmanagement.php" />
+        <option value="$PROJECT_DIR$/production/logic/gamelogic.php" />
+        <option value="$PROJECT_DIR$/production/js/functions.js" />
+        <option value="$PROJECT_DIR$/production/readme.txt" />
       </list>
     </option>
   </component>
@@ -187,6 +231,18 @@
               <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
               <item name="htdocs" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="production" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="htdocs" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="production" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="htdocs" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="production" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="logic" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -311,12 +367,12 @@
       <workItem from="1501572232966" duration="24124000" />
       <workItem from="1501603441534" duration="13601000" />
       <workItem from="1501675755316" duration="176661000" />
-      <workItem from="1502361719140" duration="15138000" />
+      <workItem from="1502361719140" duration="17375000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="235447000" />
+    <option name="totallyTimeSpent" value="237684000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -473,14 +529,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/production/logic/datenbank.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/production/lobby.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="349">
@@ -565,14 +613,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/production/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/production/accountmanagement.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -613,47 +653,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/production/logic/gamelogic.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3086">
-          <caret line="97" column="0" lean-forward="true" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
-          <folding>
-            <marker date="1502378785000" expanded="true" signature="264:303" ph="SELECT * FRO... parties" />
-            <marker date="1502378785000" expanded="true" signature="1104:1171" ph="UPDATE parti... " />
-            <marker date="1502378785000" expanded="true" signature="1495:1562" ph="UPDATE parti... " />
-            <marker date="1502378785000" expanded="true" signature="1889:1956" ph="UPDATE parti... " />
-            <marker date="1502378785000" expanded="true" signature="2283:2350" ph="UPDATE parti... " />
-            <marker date="1502378785000" expanded="true" signature="2677:2744" ph="UPDATE parti... " />
-            <marker date="1502378785000" expanded="true" signature="3071:3138" ph="UPDATE parti... " />
-            <marker date="1502378785000" expanded="true" signature="3725:3764" ph="SELECT * FRO... parties" />
-            <marker date="1502378785000" expanded="true" signature="5267:6261" ph="..." />
-            <marker date="1502378785000" expanded="true" signature="5267:6591" ph="..." />
-            <marker date="1502378785000" expanded="true" signature="5284:6261" ph="..." />
-            <marker date="1502378785000" expanded="true" signature="5305:5421" ph="..." />
-            <marker date="1502378785000" expanded="true" signature="5442:5558" ph="..." />
-            <marker date="1502378785000" expanded="true" signature="5579:5695" ph="..." />
-            <marker date="1502378785000" expanded="true" signature="5716:5832" ph="..." />
-            <marker date="1502378785000" expanded="true" signature="5853:5969" ph="..." />
-            <marker date="1502378785000" expanded="true" signature="5990:6106" ph="..." />
-            <marker date="1502378785000" expanded="true" signature="6127:6243" ph="..." />
-            <marker date="1502378785000" expanded="true" signature="6295:6416" ph="..." />
-            <marker date="1502378785000" expanded="true" signature="8206:11443" ph="..." />
-            <marker date="1502378785000" expanded="true" signature="8394:8433" ph="SELECT * FRO... parties" />
-            <marker date="1502378785000" expanded="true" signature="9198:9237" ph="SELECT * FRO... parties" />
-            <marker date="1502378785000" expanded="true" signature="9901:9940" ph="SELECT * FRO... parties" />
-            <marker date="1502378785000" expanded="true" signature="10612:10651" ph="SELECT * FRO... parties" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/production/js/functions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1451">
-          <caret line="116" column="28" lean-forward="false" selection-start-line="116" selection-start-column="28" selection-end-line="116" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/production/datenbank2.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -680,8 +679,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/production/datenbank.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="84" column="41" lean-forward="true" selection-start-line="84" selection-start-column="41" selection-end-line="84" selection-end-column="41" />
+        <state relative-caret-position="1050">
+          <caret line="70" column="20" lean-forward="false" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/production/logic/datenbank.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/production/logic/gamelogic.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="143" column="95" lean-forward="true" selection-start-line="143" selection-start-column="95" selection-end-line="143" selection-end-column="95" />
+          <folding>
+            <marker date="1502467841000" expanded="true" signature="264:303" ph="SELECT * FRO... parties" />
+            <marker date="1502467841000" expanded="true" signature="1104:1171" ph="UPDATE parti... " />
+            <marker date="1502467841000" expanded="true" signature="1495:1562" ph="UPDATE parti... " />
+            <marker date="1502467841000" expanded="true" signature="1889:1956" ph="UPDATE parti... " />
+            <marker date="1502467841000" expanded="true" signature="2283:2350" ph="UPDATE parti... " />
+            <marker date="1502467841000" expanded="true" signature="2677:2744" ph="UPDATE parti... " />
+            <marker date="1502467841000" expanded="true" signature="3071:3138" ph="UPDATE parti... " />
+            <marker date="1502467841000" expanded="true" signature="3725:3764" ph="SELECT * FRO... parties" />
+            <marker date="1502467841000" expanded="true" signature="5267:6275" ph="..." />
+            <marker date="1502467841000" expanded="true" signature="5284:6275" ph="..." />
+            <marker date="1502467841000" expanded="true" signature="5305:5423" ph="..." />
+            <marker date="1502467841000" expanded="true" signature="5444:5562" ph="..." />
+            <marker date="1502467841000" expanded="true" signature="5583:5701" ph="..." />
+            <marker date="1502467841000" expanded="true" signature="5722:5840" ph="..." />
+            <marker date="1502467841000" expanded="true" signature="5861:5979" ph="..." />
+            <marker date="1502467841000" expanded="true" signature="6000:6118" ph="..." />
+            <marker date="1502467841000" expanded="true" signature="6139:6257" ph="..." />
+            <marker date="1502467841000" expanded="true" signature="8407:8446" ph="SELECT * FRO... parties" />
+            <marker date="1502467841000" expanded="true" signature="9211:9250" ph="SELECT * FRO... parties" />
+            <marker date="1502467841000" expanded="true" signature="9914:9953" ph="SELECT * FRO... parties" />
+            <marker date="1502467841000" expanded="true" signature="10625:10664" ph="SELECT * FRO... parties" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/production/js/functions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="129" column="56" lean-forward="true" selection-start-line="129" selection-start-column="56" selection-end-line="129" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/production/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="31" column="20" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
           <folding />
         </state>
       </provider>

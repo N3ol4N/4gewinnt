@@ -34,7 +34,7 @@ entwicklerkommentar:
 getestet auf firefox v.54.0.1 und chrome 60.0.3112.90
 getestet auf einem widescreen-bildschirm und maximiertem browser
 
-sollten die spieloberfläche oder die lobby aufflackern, passiert dies auf Grund des automatisierten pollings. wenn man nicht auf das polling warten möchte bietet es sich an die seite einfach immer neu zu laden
+sollten die spieloberfläche oder die lobby aufflackern, passiert dies auf Grund des automatisierten pollings (Intervall 10s). wenn man nicht auf das polling warten möchte bietet es sich an die seite einfach immer neu zu laden
 
 dem user wird vor der aktivierung eine challenge übermittelt. diese muss einmal übermittelt werden um anzuzeigen dass der nutzer auch die angegebene email adresse besitzt.
 zur besseren Nutzbarkeit wurde die emailfunktion für die challenge auskommentiert und als link direkt in der website implementiert. (vgl registration.php zeile 97/98)

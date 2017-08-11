@@ -19,7 +19,7 @@ function getpartyList() {
     };
 
     request.send();
-    window.setTimeout("getpartyList()", 6000);
+    window.setTimeout("getpartyList()", 10000);
 }
 
 //function to join a party
@@ -124,7 +124,7 @@ function getgame(colorset) {
     };
 
     request.send();
-    window.setTimeout("getgame(colorset)", 6000);
+    window.setTimeout("getgame(colorset)", 10000);
 }
 
 //function to select a color scheme on your current game
